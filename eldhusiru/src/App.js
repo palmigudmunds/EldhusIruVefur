@@ -1,23 +1,21 @@
 import "./index.css";
 import React from 'react';
-import Navigation from './components/Navigation';
-import MainMenu from './components/MainMenu';
-import AboutUs from './components/AboutUs';
-import HoursLocation from "./components/HoursLocation";
+import { Routes, Route, Navigate } from 'react-router-dom';
 
-const App = () => {
+import Menu from "./Views/Menu";
+
+function App() {
 
   // useEffect(() => {
   //   console.log('Initializing...');
   // }, []);
 
   return (
-    <>
-      <Navigation/>
-      <MainMenu/>
-      <AboutUs/>
-      <HoursLocation/>
-    </>
+      <div className="App">
+        <Routes>
+          <Route path="/*" element={<Menu/>} />
+        </Routes>
+      </div>
   );
 }
 
