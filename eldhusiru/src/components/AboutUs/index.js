@@ -1,9 +1,9 @@
 import React from 'react';
 
-const AboutUs = () => {
+const AboutUs = ({myRef}) => {
     
     return (
-        <div className="flex flex-row justify-start max-w-screen-xl mx-auto">
+        <div id="aboutus-section" className="flex flex-row justify-start max-w-screen-xl mx-auto pt-48 relative z-10">
             <div className="w-1/2">
                 <div className='w-11/12 border-2 border-black-500 rounded-3xl h-56 mb-6'>
 

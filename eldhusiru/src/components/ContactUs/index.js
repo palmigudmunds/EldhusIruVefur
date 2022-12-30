@@ -2,12 +2,12 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 
 
-const ContactUs = () => {
+const ContactUs = ({myRef}) => {
 
     let navigate = useNavigate();
     
     return (
-        <div className="flex flex-row justify-center max-w-screen-xl mx-auto pt-48 pb-32">
+        <div id="contactus-section" className="flex flex-row justify-center max-w-screen-xl mx-auto pt-48 pb-32 relative z-10">
             <div className='w-8/12 red-background rounded-3xl h-96 mb-6'>
                 <h4 className="text-xl font-black text-white text-center mt-6">Hafa samband</h4>
                 <div className="mb-6 mt-4 flex flex-row justify-between">

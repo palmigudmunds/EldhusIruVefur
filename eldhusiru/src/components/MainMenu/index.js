@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 
-const MainMenu = () => {
+const MainMenu = ({myRef}) => {
 
     useEffect(() => {
     console.log('Initializing...');
     }, []);
     
     return (
-        <div className="flex flex-row justify-start max-w-screen-xl mx-auto pt-48 min-h-screen">
+        <div id="main-section" className="flex flex-row justify-start max-w-screen-xl mx-auto pt-48 min-h-screen relative z-10">
             <div className="w-1/2 pt-16">
                 <h3 className="main-menu-text red-text">Bragðaðu á ekta Indónesískum mat</h3>
                 <h5 className="text-2xl font-bold pt-5">Pantaðu í síma 848-5143</h5>
