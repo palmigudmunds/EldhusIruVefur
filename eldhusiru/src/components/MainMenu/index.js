@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const MainMenu = ({myRef}) => {
+const MainMenu = () => {
 
     useEffect(() => {
     console.log('Initializing...');

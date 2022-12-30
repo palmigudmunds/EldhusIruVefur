@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HoursLocation = ({myRef}) => {
+const HoursLocation = () => {
     
     return (
         <div id="hourslocation-section" className="flex flex-row justify-start max-w-screen-xl pt-48 mx-auto relative z-10">

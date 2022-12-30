@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutUs = ({myRef}) => {
+const AboutUs = () => {
     
     return (
         <div id="aboutus-section" className="flex flex-row justify-start max-w-screen-xl mx-auto pt-48 relative z-10">

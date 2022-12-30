@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <footer className="p-4 bg-white md:p-8 lg:p-10 red-background">
             <div className="mx-auto max-w-screen-xl text-center">
-                <a href="#" className="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
-                    <img className="h-24 rounded" src={logo} alt="Logo" />   
+                <a href="#" className="flex justify-center items-center text-2xl font-semibold">
+                    <img className="h-24" src={logo} alt="Logo" />   
                 </a>
                 <p className="my-4 text-white text-xl">Eldhús Iru</p>
                 <ul className="flex flex-col justify-center items-center space-y-1 list-none list-inside text-white font-light text-sm">
