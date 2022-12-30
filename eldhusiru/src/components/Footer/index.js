@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '/Users/PalmiGudmunds/Desktop/EldhusIruVefur/eldhusiru/src/resources/eldhusiru-no-text.jpeg';
+import logo from '../../resources/eldhusiru-no-text.jpeg';
 
 const Footer = () => {
     
     return (
-        <footer className="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800 red-background">
+        <footer className="p-4 bg-white md:p-8 lg:p-10 red-background">
             <div className="mx-auto max-w-screen-xl text-center">
                 <a href="#" className="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
                     <img className="h-24 rounded" src={logo} alt="Logo" />   

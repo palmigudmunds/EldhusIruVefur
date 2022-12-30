@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import logo from '/Users/PalmiGudmunds/Desktop/EldhusIruVefur/eldhusiru/src/resources/eldhusiru-nav-logo-white.png';
+import logo from '../../resources/eldhusiru-nav-logo-white.png';
 
 
 const Navigation = () => {
@@ -16,7 +16,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className='fixed top-0 inset-x-0 h-auto z-40 w-full p-12 text-xl'>
+        <nav className='fixed top-0 inset-x-0 h-auto z-40 w-full p-12 text-xl bg-slate-50'>
             <div className='max-w-screen-2xl flex'>
                 <Link to={`/`}>
                     <img className="h-20" src={logo} alt="Logo" onClick={() => handleClickScroll('main-section')}/>
