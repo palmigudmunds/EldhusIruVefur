@@ -1,12 +1,10 @@
 import {useRef} from 'react';
 import Navigation from '../../components/Navigation';
-import MainMenu from '../../components/MainMenu';
-import AboutUs from '../../components/AboutUs';
-import HoursLocation from "../../components/HoursLocation";
-import ContactUs from '../../components/ContactUs';
+import FoodMenuHeader from '../../components/FoodMenuHeader';
+import FoodMenuItems from '../../components/FoodMenuItems';
 import Footer from '../../components/Footer';
 
-const MenuView = () => {
+const FrontPageView = () => {
 
 	const mainMenuRef = useRef(null);
 	const aboutUsRef = useRef(null);
@@ -15,16 +13,14 @@ const MenuView = () => {
 
 	return (
 		<>
-			<div className='relative'>
+			<div className='relative mb-32'>
 				<Navigation />
-				<MainMenu myRef={mainMenuRef}/>
-				<AboutUs myRef={aboutUsRef}/>
-				<HoursLocation myRef={hoursLocationRef}/>
-				<ContactUs myRef={contactUsRef}/>
-				<Footer/>
+                <FoodMenuHeader />
+                <FoodMenuItems />
 			</div>
+            <Footer/>
 		</>
 	);
 }
 
-export default MenuView;
+export default FrontPageView;

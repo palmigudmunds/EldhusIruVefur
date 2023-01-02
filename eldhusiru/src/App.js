@@ -2,6 +2,7 @@ import "./index.css";
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
+import FrontPage from "./Views/FrontPage";
 import Menu from "./Views/Menu";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
   return (
       <div className="App">
         <Routes>
-          <Route path="/*" element={<Menu/>} />
+          <Route path="/*" element={<FrontPage/>} />
+          <Route exact path="/menu" element={<Menu/>}  />
         </Routes>
       </div>
   );

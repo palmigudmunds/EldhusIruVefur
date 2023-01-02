@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const MainMenu = () => {
+
+    let navigate = useNavigate();
 
     useEffect(() => {
     console.log('Initializing...');
@@ -12,7 +16,7 @@ const MainMenu = () => {
                 <h3 className="main-menu-text red-text">Bragðaðu á ekta Indónesískum mat</h3>
                 <h5 className="text-2xl font-bold pt-5">Pantaðu í síma 848-5143</h5>
                 <div className='pt-2'>
-                    <button className="red-background text-white text-xl py-4 px-8 rounded-full mt-5 hover:bg-red-700 ease-in-out">Sjá matseðil</button>
+                    <button className="red-background text-white text-xl py-4 px-8 rounded-full mt-5 hover:bg-red-700 ease-in-out" onClick={() => navigate('/menu')}>Sjá matseðil</button>
                 </div>
             </div>
             <div className="w-1/2 ">
