@@ -3,18 +3,18 @@ import React from 'react';
 const AboutUs = () => {
     
     return (
-        <div id="aboutus-section" className="flex flex-row justify-start max-w-screen-xl mx-auto pt-48 relative z-10">
-            <div className="w-1/2">
-                <div className='w-11/12 border-2 border-black-500 rounded-3xl h-56 mb-6'>
+        <div id="aboutus-section" className="px-6 md:px-0 flex flex-col-reverse md:flex-row justify-start max-w-none md:max-w-screen-xl mx-auto pt-16 md:pt-48">
+            <div className="flex flex-col justify-center items-center md:w-1/2 pt-5 md:pt-0">
+                <div className='w-full md:w-11/12 border-2 border-black-500 rounded-3xl h-56 mb-6'>
 
                 </div>
-                <div className='w-11/12 border-2 border-black-500 rounded-3xl h-56'>
+                <div className='w-full md:w-11/12 border-2 border-black-500 rounded-3xl h-56'>
 
                 </div>
             </div>
-            <div className="w-1/2">
-                <h3 className="main-menu-text red-text text-center">Um okkur</h3>
-                <h5 className="text-md pt-5">Á Eldhús Iru er okkar umhugað um gæði og varð staðurinn til úr hreinni ástríðu fyrir góðum ....<br></br><br></br>
+            <div className="md:w-1/2 flex flex-col items-center">
+                <h3 className="opn-sta-text text-5xl font-bold red-text text-center">Um okkur</h3>
+                <h5 className="text-base md:font-normal pt-5 md:w-8/12">Á Eldhús Iru er okkar umhugað um gæði og varð staðurinn til úr hreinni ástríðu fyrir góðum ....<br></br><br></br>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan tellus vitae tellus mattis, quis rhoncus orci tincidunt. Vivamus consequat arcu nec diam luctus, eu placerat ante ullamcorper. Aenean a euismod ipsum, non faucibus massa. Etiam quam arcu, fermentum ut eros vitae, molestie pulvinar magna. Curabitur tristique vitae metus sit amet tincidunt.
                     <br></br><br></br>
                     Cras rutrum efficitur erat vel dapibus. Nunc tempor porta enim vitae lobortis. Nullam consectetur fringilla mi quis malesuada. Nam volutpat lectus in venenatis tincidunt. Morbi sit amet risus turpis. Nullam vel arcu mauris.

@@ -16,12 +16,12 @@ const Navigation = () => {
     }
 
     return (
-        <nav className='fixed top-0 inset-x-0 h-auto z-40 w-full p-12 text-xl bg-slate-50 max-lg:p-6'>
+        <nav className='fixed top-0 inset-x-0 h-auto z-40 w-full p-10 text-xl bg-slate-50 max-md:p-2'>
             <div className='max-w-screen-2xl flex max-lg:justify-center'>
                 <Link to={`/`}>
-                    <img className="h-20 max-lg:h-28" src={logo} alt="Logo" onClick={() => handleClickScroll('main-section')}/>
+                    <img className="h-20 max-lg:h-10" src={logo} alt="Logo" onClick={() => handleClickScroll('main-section')}/>
                 </Link>
-                <div className='flex space-x-14 justify-between items-center mx-auto max-lg:hidden'>
+                <div className='flex space-x-10 justify-between items-center mx-auto max-md:hidden'>
                     <Link to={`/menu`}>
                         <button className='cursor-pointer hover:text-rose-700 duration-100 ease-in-out'>Matseðill</button>
                     </Link>
