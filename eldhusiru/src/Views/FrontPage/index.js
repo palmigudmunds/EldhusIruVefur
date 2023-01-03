@@ -8,21 +8,18 @@ import Footer from '../../components/Footer';
 
 const FrontPageView = () => {
 
-	const mainMenuRef = useRef(null);
-	const aboutUsRef = useRef(null);
-	const hoursLocationRef = useRef(null);
-	const contactUsRef = useRef(null);
-
 	return (
 		<>
-			<div className='relative'>
+			<div className='relative px-6 mb-32'>
 				<Navigation />
-				<MainMenu myRef={mainMenuRef}/>
-				<AboutUs myRef={aboutUsRef}/>
-				<HoursLocation myRef={hoursLocationRef}/>
-				<ContactUs myRef={contactUsRef}/>
-				<Footer/>
+				<div className='px-6 md:px-0 pt-20 md:pt-48 space-y-24'>
+					<MainMenu/>
+					<AboutUs/>
+					<HoursLocation/>
+					<ContactUs/>
+				</div>
 			</div>
+			<Footer/>
 		</>
 	);
 }

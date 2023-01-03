@@ -1,4 +1,4 @@
-import {useRef} from 'react';
+import {useRef, useEffect} from 'react';
 import Navigation from '../../components/Navigation';
 import FoodMenuHeader from '../../components/FoodMenuHeader';
 import FoodMenuItems from '../../components/FoodMenuItems';
@@ -10,6 +10,10 @@ const FrontPageView = () => {
 	const aboutUsRef = useRef(null);
 	const hoursLocationRef = useRef(null);
 	const contactUsRef = useRef(null);
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 
 	return (
 		<>

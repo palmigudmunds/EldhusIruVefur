@@ -46,8 +46,8 @@ const ContactUs = () => {
     }
     
     return (
-        <div id="contactus-section" className="flex flex-row justify-center max-w-screen-xl mx-auto pt-16 md:pt-48 pb-32 relative z-10">
-            <div className='w-8/12 red-background rounded-3xl h-96 mb-6'>
+        <div id="HafaSamband" className="flex flex-row justify-center max-w-screen-xl mx-auto relative">
+            <div className='md:w-8/12 w-full red-background rounded-3xl h-96 mb-6'>
                 <h4 className="text-xl font-black text-white text-center mt-6">Hafa samband</h4>
                 <form onSubmit={onSubmit}>
                     <div className="md:mb-6 mt-4 flex flex-col items-center md:flex-row justify-between">
@@ -92,7 +92,7 @@ const ContactUs = () => {
                     </div>
                     <div className="mt-10 md:mt-14 flex items-center justify-center">
                         <button 
-                            className="w-5/12 md:w-3/12 red-background border border-white hover:bg-white text-white hover:bg-red-700 text-xl py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline duration-100 ease-in-out" 
+                            className="w-5/12 md:w-3/12 bg-main border border-white hover:bg-white text-white hover:text-main text-xl py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline duration-100 ease-in-out" 
                             type="submit"
                             >{formStatus}</button>
                     </div>

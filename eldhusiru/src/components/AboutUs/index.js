@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
     
     return (
-        <div id="aboutus-section" className="px-6 md:px-0 flex flex-col-reverse md:flex-row justify-start max-w-none md:max-w-screen-xl mx-auto pt-16 md:pt-48">
+        <div id="UmOkkur" className="flex flex-col-reverse md:flex-row justify-start max-w-none md:max-w-screen-xl mx-auto">
             <div className="flex flex-col justify-center items-center md:w-1/2 pt-5 md:pt-0">
                 <div className='w-full md:w-11/12 border-2 border-black-500 rounded-3xl h-56 mb-6'>
 

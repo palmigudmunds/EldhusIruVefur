@@ -14,8 +14,8 @@ function App() {
   return (
       <div className="App">
         <Routes>
-          <Route path="/*" element={<FrontPage/>} />
-          <Route exact path="/menu" element={<Menu/>}  />
+          <Route path="/" element={<FrontPage/>} />
+          <Route activeClassName='text-red-600' exact path="/menu" element={<Menu/>}  />
         </Routes>
       </div>
   );

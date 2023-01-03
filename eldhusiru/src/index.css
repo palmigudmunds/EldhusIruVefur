@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');  */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -53,4 +53,8 @@ body {
 .tab {
     display: inline-block;
     margin-left: 40px;
+}
+
+.link {
+    @apply text-base lg:text-lg cursor-pointer hover:text-main duration-100 ease-in-out;
 }
