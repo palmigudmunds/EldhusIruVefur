@@ -1,6 +1,6 @@
 import "./index.css";
 import React, { useEffect }  from 'react';
-import { Routes, Route, Switch, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 
 import FrontPage from "./Views/FrontPage";
 import Menu from "./Views/Menu";

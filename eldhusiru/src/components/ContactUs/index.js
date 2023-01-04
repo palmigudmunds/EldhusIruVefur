@@ -1,7 +1,5 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
 import emailjs from 'emailjs-com';
-import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
 
 
@@ -10,10 +8,6 @@ const ContactUs = () => {
     const SERVICE_ID = "service_9m0nylf";
     const TEMPLATE_ID = "template_djr75os";
     const USER_ID = "6IvRmXwrdvAQ55kMg";
-
-    let navigate = useNavigate();
-
-    const [formStatus, setFormStatus] = React.useState('Senda')
 
     const onSubmit = (e) => {
         // e.preventDefault()
@@ -94,7 +88,7 @@ const ContactUs = () => {
                         <button 
                             className="w-5/12 md:w-3/12 bg-main border border-white hover:bg-white text-white hover:text-main text-xl py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline duration-100 ease-in-out" 
                             type="submit"
-                            >{formStatus}</button>
+                            >Senda</button>
                     </div>
                 </form>
             </div>

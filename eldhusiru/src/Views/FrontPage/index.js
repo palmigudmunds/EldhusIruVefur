@@ -1,4 +1,3 @@
-import {useRef} from 'react';
 import Navigation from '../../components/Navigation';
 import MainMenu from '../../components/MainMenu';
 import AboutUs from '../../components/AboutUs';

@@ -1,5 +1,4 @@
 import React from 'react';
-import dish from '../../resources/eldhusiru-diskur.jpeg';
 import friedRice from '../../resources/fried-rice.jpeg';
 import friedNoodles from '../../resources/fried-noodles.jpeg';
 import friedRiceNoodles from '../../resources/fried-rice-noodles.jpeg';
