@@ -86,7 +86,7 @@ const ContactUs = () => {
                     </div>
                     <div className="mt-10 md:mt-14 flex items-center justify-center">
                         <button 
-                            className="w-5/12 md:w-3/12 bg-main border border-white hover:bg-white text-white hover:text-main text-xl py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline duration-100 ease-in-out" 
+                            className="w-5/12 md:w-3/12 bg-main border border-white hover:bg-white text-white hover:text-main text-lg md:text-xl font-bold py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline duration-100 ease-in-out" 
                             type="submit"
                             >Senda</button>
                     </div>

@@ -10,7 +10,7 @@ const MainMenu = () => {
     return (
         <div id="main-section" className="flex flex-col md:flex-row justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 md:space-x-4">
             <div className="w-full md:w-1/2 md:pt-16">
-                <h1 className="max-md:mt-5">Smakkaðu ekta Indónesískann mat</h1>
+                <h1 className="max-md:mt-5">Smakkaðu ekta Indónesískan mat</h1>
                 <h3 className="pt-2 md:pt-5">Pantaðu í síma 848-5143</h3>
                 <div className="md:pt-2">
                     <button
