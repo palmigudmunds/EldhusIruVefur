@@ -15,7 +15,7 @@ const Footer = () => {
                         <p className='text-sm'>Grandagarður 16, Reykjavík</p>
                     </li>
                     <li>
-                        <p className='text-sm'>eldhusiru@eldhusiru.is</p>
+                        <p className='text-sm'>eldhusiru15@gmail.com</p>
                     </li>
                     <li>
                         <p className='text-sm'>+354 848 5142</p>

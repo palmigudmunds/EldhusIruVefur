@@ -14,7 +14,7 @@ const MainMenu = () => {
                 <h3 className="pt-2 md:pt-5">Pantaðu í síma 848-5143</h3>
                 <div className="md:pt-2">
                     <button
-                        className="bg-main text-white text-lg md:text-xl py-4 px-8 rounded-full mt-5 hover:bg-red-700 ease-in-out"
+                        className="bg-main text-white text-lg md:text-xl font-bold py-4 px-8 rounded-full mt-5 hover:bg-red-700 ease-in-out"
                         onClick={()=> navigate('/menu')}>Sjá matseðil</button>
                 </div>
             </div>
