@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import diskur from '../../resources/stadurinn.jpeg';
 
@@ -6,32 +6,15 @@ import diskur from '../../resources/stadurinn.jpeg';
 const MainMenu = () => {
 
     let navigate = useNavigate();
-
-    useEffect(() => {
-    console.log('Initializing...');
-    }, []);
     
     return (
-        // <div id="main-section" className="flex flex-row justify-start max-w-screen-xl mx-auto pt-48 min-h-screen relative z-10">
-        //     <div className="w-1/2 pt-16">
-        //         <h3 className="main-menu-text red-text">Bragðaðu á ekta Indónesískum mat</h3>
-        //         <h5 className="text-2xl font-bold pt-5">Pantaðu í síma 848-5143</h5>
-        //         <div className='pt-2'>
-        //             <button className="red-background text-white text-xl py-4 px-8 rounded-full mt-5 hover:bg-red-700 ease-in-out" onClick={() => navigate('/menu')}>Sjá matseðil</button>
-        //         </div>
-        //     </div>
-        //     <div className="w-1/2 ">
-        //         <div className='w-11/12 h-5/6 border-2 border-black-500 rounded-3xl '></div>
-        //     </div>
-        // </div>
-
         <div id="main-section" className="flex flex-col md:flex-row justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 md:space-x-4">
             <div className="w-full md:w-1/2 md:pt-16">
-                <h1 className="lg:text-6xl md:text-5xl text-5xl font-bold red-text max-md:mt-5">Smakkaðu ekta Indónesískann mat</h1>
-                <h5 className="text-lg md:text-2xl font-bold pt-2 md:pt-5">Pantaðu í síma 848-5143</h5>
+                <h1 className="max-md:mt-5">Smakkaðu ekta Indónesískann mat</h1>
+                <h3 className="pt-2 md:pt-5">Pantaðu í síma 848-5143</h3>
                 <div className="md:pt-2">
                     <button
-                        className="red-background text-white text-lg md:text-xl py-4 px-8 rounded-full mt-5 hover:bg-red-700 ease-in-out"
+                        className="bg-main text-white text-lg md:text-xl py-4 px-8 rounded-full mt-5 hover:bg-red-700 ease-in-out"
                         onClick={()=> navigate('/menu')}>Sjá matseðil</button>
                 </div>
             </div>

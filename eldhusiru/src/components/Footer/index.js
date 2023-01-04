@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from '../../resources/eldhusiru-no-text.jpeg';
+import logo from '../../resources/eldhusiru-logo-new-transp.png';
 
 const Footer = () => {
     
     return (
-        <footer className="p-4 bg-white md:p-8 lg:p-10 red-background">
+        <footer className="p-4 bg-main md:p-8 lg:p-10">
             <div className="mx-auto max-w-screen-xl text-center">
                 <a href="#" className="flex justify-center items-center text-2xl font-semibold">
                     <img className="h-24" src={logo} alt="Logo" />   

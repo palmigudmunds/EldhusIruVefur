@@ -10,9 +10,9 @@ const FrontPageView = () => {
 
 	return (
 		<>
-			<div className='relative px-6 mb-32'>
+			<div className='relative md:px-6 px-1 mb-32'>
 				<Navigation />
-				<div className='px-6 md:px-0 pt-20 md:pt-48 space-y-24'>
+				<div className='px-6 md:px-0 pt-2 md:pt-48 space-y-24'>
 					<MainMenu/>
 					<AboutUs/>
 					<HoursLocation/>
