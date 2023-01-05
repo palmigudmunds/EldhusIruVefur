@@ -12,12 +12,14 @@ const FrontPageView = () => {
 
 	return (
 		<>
-			<div className='relative mb-32'>
+			<div className='relative md:px-6 px-1 mb-32'>
 				<Navigation />
-                <FoodMenuHeader />
-                <FoodMenuItems />
+				<div className='px-6 md:px-0 pt-2 pt-10 md:pt-48 space-y-24'>
+					<FoodMenuHeader />
+					<FoodMenuItems />
+				</div>
 			</div>
-            <Footer/>
+			<Footer/>
 		</>
 	);
 }

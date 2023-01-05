@@ -35,8 +35,8 @@ h3 {
 }
 
 h4 {
-    font-family: 'Lora', serif;
-    @apply text-xl font-bold text-white 
+    font-family: 'Sansita Swashed', cursive;
+    @apply text-2xl text-white 
 }
 
 p {
@@ -60,4 +60,45 @@ p {
 
 .scroll-margin {
     scroll-margin-top: 5px;
-  }
+}
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    @apply text-sm md:text-base text-zinc-600; 
+}
+
+ul.leaders {
+    
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    @apply text-xs md:text-base text-zinc-600; 
+}
+
+ul.leaders li:after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background-color: #ffffff;
+    @apply bg-slate-50;
+}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background-color: #ffffff;
+    @apply bg-slate-50;
+    position: relative;
+    z-index: 1
+}

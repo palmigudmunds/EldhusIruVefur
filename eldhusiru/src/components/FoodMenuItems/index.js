@@ -10,47 +10,108 @@ import chickenSatay from '../../resources/chicken-satay.jpeg';
 const FoodMenuItems = () => {
     
     return (
-        <div className="flex justify-center items-center max-w-screen-xl mx-auto pt-16 lg:pt-24 relative z-10">
-            <div className="w-11/12 md:w-4/6">
+        <div className="flex flex-col justify-center items-center max-w-screen-xl mx-auto relative z-10">
+            <div className="w-full md:w-4/6">
                 <h3 className="text-2xl md:text-4xl text-center mb-10">Réttir</h3>
                 <div className='flex flex-row items-start w-full h-20 md:h-32 mb-14 lg:mb-6'>
-                    <img className="h-full max-w-md rounded-3xl" src={friedRice} alt="friedRice"/>
-                    <div className="flex flex-col justify-center">
-                        <h5 className="text-base md:text-xl text-black text-left ml-5">1. Steikt hrísgrjón</h5>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5 mb-1 md:mb-4">með kjúklingi / rækjum / grænmeti</h6>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5">2.499 kr.</h6>
+                    <img className="h-full max-w-md rounded-3xl mr-5" src={friedRice} alt="friedRice"/>
+                    <div className="flex flex-col justify-center w-full">
+                        <h5 className="text-sm md:text-xl text-black text-left">1. Steikt hrísgrjón</h5>
+                        <ul className='leaders'>
+                            <li>
+                                <span>Með rækjum</span>
+                                <span>2.590 kr.</span>
+                            </li>
+                            <li>
+                                <span>Með kjúkling</span>
+                                <span>2.490 kr.</span>
+                            </li>
+                            <li>
+                                <span>Með grænmeti</span>
+                                <span>2.090 kr.</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div className='flex flex-row items-start w-full h-20 md:h-32 mb-14 lg:mb-6'>
-                    <img className="h-full rounded-3xl" src={friedNoodles} alt="friedNoodles"/>
-                    <div className="flex flex-col justify-center">
-                        <h5 className="text-base md:text-xl text-black text-left ml-5">2. Steiktar eggjanúðlur</h5>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5 mb-1 md:mb-4">með kjúklingi / rækjum / grænmeti</h6>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5">2.499 kr.</h6>
+                    <img className="h-full rounded-3xl mr-5" src={friedNoodles} alt="friedNoodles"/>
+                    <div className="flex flex-col justify-center w-full">
+                        <h5 className="text-sm md:text-xl text-black text-left">2. Steiktar eggjanúðlur</h5>
+                        <ul className='leaders'>
+                            <li>
+                                <span>Með rækjum</span>
+                                <span>2.590 kr.</span>
+                            </li>
+                            <li>
+                                <span>Með kjúkling</span>
+                                <span>2.490 kr.</span>
+                            </li>
+                            <li>
+                                <span>Með grænmeti</span>
+                                <span>2.090 kr.</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div className='flex flex-row items-start w-full h-20 md:h-32 mb-14 lg:mb-6'>
-                    <img className="h-full rounded-3xl" src={friedRiceNoodles} alt="friedRiceNoodles"/>
-                    <div className="flex flex-col justify-center">
-                        <h5 className="text-base md:text-xl text-black text-left ml-5">3. Steiktar hrísgrjónanúðlur</h5>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5 mb-1 md:mb-4">með kjúklingi / rækjum / grænmeti</h6>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5">2.499 kr.</h6>
+                    <img className="h-full rounded-3xl mr-5" src={friedRiceNoodles} alt="friedRiceNoodles"/>
+                    <div className="flex flex-col justify-center w-full">
+                        <h5 className="text-sm md:text-xl text-black text-left">3. Steiktar hrísgrjónanúðlur</h5>
+                        <ul className='leaders'>
+                            <li>
+                                <span>Með rækjum</span>
+                                <span>2.590 kr.</span>
+                            </li>
+                            <li>
+                                <span>Með kjúkling</span>
+                                <span>2.490 kr.</span>
+                            </li>
+                            <li>
+                                <span>Með grænmeti</span>
+                                <span>2.090 kr.</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div className='flex flex-row items-start w-full h-20 md:h-32 mb-14 lg:mb-6'>
-                    <img className="h-full rounded-3xl" src={chickenSatay} alt="chickenSatay"/>
-                    <div className="flex flex-col justify-center">
-                        <h5 className="text-base md:text-xl text-black text-left ml-5">4. Kjúklinga-Satay</h5>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5 mb-1 md:mb-4">með hnetusósu og hrísgrjónum</h6>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5">2.499 kr.</h6>
+                    <img className="h-full rounded-3xl mr-5" src={chickenSatay} alt="chickenSatay"/>
+                    <div className="flex flex-col justify-center w-full">
+                        <h5 className="text-sm md:text-xl text-black text-left">4. Kjúklinga-Satay</h5>
+                        <ul className='leaders'>
+                            <li>
+                                <span>Með hnetusósu og hrísgrjónum</span>
+                                <span>2.690 kr.</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div className='flex flex-row items-start w-full h-20 md:h-32 mb-14 lg:mb-6'>
-                    <img className="h-full rounded-3xl" src={noodleSoup} alt="noodleSoup"/>
-                    <div className="flex flex-col justify-center">
-                        <h5 className="text-base md:text-xl text-black text-left ml-5">5. Núðlusúpa</h5>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5 mb-1 md:mb-4">með Indónesískum kjötbollum og grænmeti</h6>
-                        <h6 className="text-sm md:text-lg text-zinc-600 text-left ml-5">2.499 kr.</h6>
+                    <img className="h-full rounded-3xl mr-5" src={noodleSoup} alt="noodleSoup"/>
+                    <div className="flex flex-col justify-center w-full">
+                        <h5 className="text-sm md:text-xl text-black text-left">5. Núðlusúpa</h5>
+                        <ul className='leaders'>
+                            <li>
+                                <span>Með Indónesískum kjötbollum, kjúklingi og grænmeti</span>
+                                <span>2.590 kr.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="w-4/6 md:w-2/6 mt-12">
+                <h3 className="text-2xl md:text-4xl text-center mb-10">Drykkir</h3>
+                <div className='w-full h-20 md:h-32 mb-14 lg:mb-6'>
+                    <div className="flex flex-col justify-center w-full">
+                        <ul className='leaders'>
+                            <li>
+                                <span>Gos</span>
+                                <span>390 kr.</span>
+                            </li>
+                            <li>
+                                <span>Svali</span>
+                                <span>250 kr.</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
