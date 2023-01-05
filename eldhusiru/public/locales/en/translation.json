@@ -1,0 +1,50 @@
+{
+    "nav-menu": "Menu",
+    "nav-about": "About Us",
+    "nav-hourslocation": "Opening Hours & Location",
+    "nav-contact": "Contact Us",
+    "language": "IS",
+
+    "header-main": "Taste authentic Indonesian food",
+    "header-phone-text": "Order by calling +354 848-5143",
+    "see-menu-button": "See menu",
+
+    "aboutus-header": "About us",
+    "aboutus-text": "At Ira's Kitchen we bla bla passion for good food .... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan tellus vitae tellus mattis, quis rhoncus orci tincidunt. Vivamus consequat arcu nec diam luctus, eu placerat ante ullamcorper. Aenean a euismod ipsum, non faucibus massa. Etiam quam arcu, fermentum ut eros vitae, molestie pulvinar magna. Curabitur tristique vitae metus sit amet tincidunt. Cras rutrum efficitur erat vel dapibus. Nunc tempor porta enim vitae lobortis. Nullam consectetur fringilla mi quis malesuada. Nam volutpat lectus in venenatis tincidunt. Morbi sit amet risus turpis. Nullam vel arcu mauris. Donec arcu dui, volutpat ac tellus convallis, hendrerit consequat libero. Orci. Verði ykkur að góðu.",
+
+    "opening-header": "Opening hours",
+    "opening-text-days": "Mon - Sun",
+    "opening-text-hours": "11:30 - 21:00",
+    "location-header": "Location",
+    "location-text": "Grandagarður 16, Reykjavík",
+
+    "contact-header": "Contact us",
+    "contact-name": "Name",
+    "contact-email": "Email",
+    "contact-message": "Message",
+    "contact-submit": "Submit",
+    "contact-success": "Message sent",
+    "contact-error": "Error sending message, please try again later",
+
+    "menu-header": "Menu",
+    "menu-dishes-header": "Dishes",
+
+    "menu-dish-1": "1. Fried rice",
+    "menu-dish-2": "2. Fried egg noodles",
+    "menu-dish-3": "3. Fried rice noodles",
+    "menu-dish-with-shrimp": "With shrimp",
+    "menu-dish-with-chicken": "With chicken",
+    "menu-dish-with-veg": "With vegetables",
+
+    "menu-dish-4": "4. Chicken satay",
+    "menu-dish-4-with": "With peanut sauce and rice",
+
+    "menu-dish-5": "5. Noodle soup",
+    "menu-dish-5-with": "With Indonesian meatballs, chicken and vegetables",
+
+    "menu-drinks-header": "Drinks",
+    "menu-soda": "Soda, 330ml",
+    "menu-juice": "Juice, 200ml",
+
+    "footer-rights": "© 2023 All rights reserved."
+  }

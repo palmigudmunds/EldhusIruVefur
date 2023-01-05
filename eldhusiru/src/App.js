@@ -1,13 +1,17 @@
 import "./index.css";
-import React, { useEffect }  from 'react';
+import React, { useEffect, useState }  from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom'
+import i18n from './i18n';
 
 import FrontPage from "./Views/FrontPage";
 import Menu from "./Views/Menu";
+import LocaleContext from './LocaleContext';
 
 function App() {
 
   const { pathname, hash, key } = useLocation();
+  const [locale, setLocale] = useState(i18n.language);
+  i18n.on('languageChanged', (lng) => setLocale(i18n.language));
 
   useEffect(() => {
     // if not a hash link, scroll to top
@@ -34,12 +38,14 @@ function App() {
   }, [pathname, hash, key]); // do this on route change
 
   return (
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<FrontPage/>} />
-          <Route activeClassName='text-red-600' exact path="/menu" element={<Menu/>}  />
-        </Routes>
-      </div>
+      <LocaleContext.Provider value={{locale, setLocale}}>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<FrontPage/>} />
+            <Route activeClassName='text-red-600' exact path="/menu" element={<Menu/>}  />
+          </Routes>
+        </div>
+      </LocaleContext.Provider>
   );
 }
 

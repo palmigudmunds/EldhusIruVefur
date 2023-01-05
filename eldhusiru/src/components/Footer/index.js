@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import logo from '../../resources/eldhusiru-logo-new-transp.png';
 
 const Footer = () => {
+
+    const { t } = useTranslation();
     
     return (
         <footer className="p-4 bg-main md:p-8 lg:p-10">
@@ -23,7 +26,7 @@ const Footer = () => {
                 </ul>
                 <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div class="sm:flex sm:items-center sm:justify-between">
-                    <span class="text-sm font-light text-white sm:text-center">© 2023 Allur réttur áskilinn.
+                    <span class="text-sm font-light text-white sm:text-center">{t('footer-rights')}
                     </span>
                     <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                         {/* <a href="#" class="text-white hover:text-gray-900">

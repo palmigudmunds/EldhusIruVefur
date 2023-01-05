@@ -1,0 +1,50 @@
+{
+    "nav-menu": "Matseðill",
+    "nav-about": "Um okkur",
+    "nav-hourslocation": "Opnunartími & staðsetning",
+    "nav-contact": "Hafa samband",
+    "language": "EN",
+
+    "header-main": "Smakkaðu ekta Indónesískan mat",
+    "header-phone-text": "Pantaðu í síma 848-5143",
+    "see-menu-button": "Sjá matseðil",
+
+    "aboutus-header": "Um okkur",
+    "aboutus-text": "Á Eldhús Iru er okkar umhugað um gæði og varð staðurinn til úr hreinni ástríðu fyrir góðum .... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan tellus vitae tellus mattis, quis rhoncus orci tincidunt. Vivamus consequat arcu nec diam luctus, eu placerat ante ullamcorper. Aenean a euismod ipsum, non faucibus massa. Etiam quam arcu, fermentum ut eros vitae, molestie pulvinar magna. Curabitur tristique vitae metus sit amet tincidunt. Cras rutrum efficitur erat vel dapibus. Nunc tempor porta enim vitae lobortis. Nullam consectetur fringilla mi quis malesuada. Nam volutpat lectus in venenatis tincidunt. Morbi sit amet risus turpis. Nullam vel arcu mauris. Donec arcu dui, volutpat ac tellus convallis, hendrerit consequat libero. Orci. Verði ykkur að góðu.",
+
+    "opening-header": "Opnunartími",
+    "opening-text-days": "Mán - Sun",
+    "opening-text-hours": "11:30 - 21:00",
+    "location-header": "Staðsetning",
+    "location-text": "Grandagarður 16, Reykjavík",
+
+    "contact-header": "Hafa samband",
+    "contact-name": "Nafn",
+    "contact-email": "Netfang",
+    "contact-message": "Skilaboð",
+    "contact-submit": "Senda",
+    "contact-success": "Fyrirspurn send",
+    "contact-error": "Eitthvað fór úrskeiðis, prófaðu aftur",
+
+    "menu-header": "Matseðill",
+    "menu-dishes-header": "Réttir",
+
+    "menu-dish-1": "1. Steikt hrísgrjón",
+    "menu-dish-2": "2. Steiktar eggjanúðlur",
+    "menu-dish-3": "3. Steiktar hrísgrjónanúðlur",
+    "menu-dish-with-shrimp": "Með rækjum",
+    "menu-dish-with-chicken": "Með kjúkling",
+    "menu-dish-with-veg": "Með grænmeti",
+
+    "menu-dish-4": "4. Kjúklinga-Satay",
+    "menu-dish-4-with": "Með hnetusósu og hrísgrjónum",
+
+    "menu-dish-5": "5. Núðlusúpa",
+    "menu-dish-5-with": "Með Indónesískum kjötbollum, kjúklingi og grænmeti",
+
+    "menu-drinks-header": "Drinks",
+    "menu-soda": "Gos, 330ml",
+    "menu-juice": "Svali, 200ml",
+
+    "footer-rights": "© 2023 Allur réttur áskilinn."
+  }
