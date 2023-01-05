@@ -14,7 +14,7 @@ const FrontPageView = () => {
 		<>
 			<div className='relative md:px-6 px-1 mb-32'>
 				<Navigation />
-				<div className='px-6 md:px-0 pt-32 pt-10 md:pt-48 space-y-24'>
+				<div className='px-6 md:px-0 pt-32 md:pt-48 space-y-24'>
 					<FoodMenuHeader />
 					<FoodMenuItems />
 				</div>

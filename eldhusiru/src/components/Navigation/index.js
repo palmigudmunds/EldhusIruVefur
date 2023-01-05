@@ -1,9 +1,11 @@
 import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import logo from '../../resources/eldhusiru-nav-logo-new.png';
 import LocaleContext from '../../LocaleContext';
 import i18n from '../../i18n';
+
+import logo from '../../resources/eldhusiru-nav-logo-new.png';
+import {ReactComponent as World} from '../../resources/world.svg';
 
 
 const Navigation = () => {
@@ -49,9 +51,14 @@ const Navigation = () => {
                     <NavLink to={`/#HafaSamband`}>
                         <button className='link max-md:hidden'>{t('nav-contact')}</button>
                     </NavLink>
-                    <NavLink >
-                        <button className='link' onClick={() => changeLocale()}>{t('language')}</button>
-                    </NavLink>
+                    <div className='flex items-center space-x-1 cursor-pointer hover:text-main fill-black hover:fill-main duration-100 ease-in-out'>
+                        {/* <svg className="w-8 h-8 bg-black" src={world} alt="Languages"></svg> */}
+                        {/* <img className="w-3.5 h-auto" src={world} alt="Languages"/> */}
+                        <World className='-mb-0.5 lg:-mb-px w-3.5 h-auto'/>
+                        <NavLink >
+                            <button className='text-base lg:text-lg' onClick={() => changeLocale()}>{t('language')}</button>
+                        </NavLink>
+                    </div>
                 </div>
             </div>
         </nav>
