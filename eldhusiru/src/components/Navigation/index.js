@@ -51,12 +51,12 @@ const Navigation = () => {
                     <NavLink to={`/#HafaSamband`}>
                         <button className='link max-md:hidden'>{t('nav-contact')}</button>
                     </NavLink>
-                    <div className='flex items-center space-x-1 cursor-pointer hover:text-main fill-black hover:fill-main duration-100 ease-in-out'>
+                    <div className='flex items-center space-x-1 cursor-pointer hover:text-main fill-black hover:fill-main duration-100 ease-in-out' onClick={() => changeLocale()}>
                         {/* <svg className="w-8 h-8 bg-black" src={world} alt="Languages"></svg> */}
                         {/* <img className="w-3.5 h-auto" src={world} alt="Languages"/> */}
-                        <World className='-mb-0.5 lg:-mb-px w-3.5 h-auto' onClick={() => changeLocale()}/>
+                        <World className='-mb-0.5 lg:-mb-px w-3.5 h-auto'/>
                         <NavLink >
-                            <button className='text-base lg:text-lg' onClick={() => changeLocale()}>{t('language')}</button>
+                            <button className='text-base lg:text-lg'>{t('language')}</button>
                         </NavLink>
                     </div>
                 </div>
