@@ -54,7 +54,7 @@ const Navigation = () => {
                     <div className='flex items-center space-x-1 cursor-pointer hover:text-main fill-black hover:fill-main duration-100 ease-in-out'>
                         {/* <svg className="w-8 h-8 bg-black" src={world} alt="Languages"></svg> */}
                         {/* <img className="w-3.5 h-auto" src={world} alt="Languages"/> */}
-                        <World className='-mb-0.5 lg:-mb-px w-3.5 h-auto'/>
+                        <World className='-mb-0.5 lg:-mb-px w-3.5 h-auto' onClick={() => changeLocale()}/>
                         <NavLink >
                             <button className='text-base lg:text-lg' onClick={() => changeLocale()}>{t('language')}</button>
                         </NavLink>
