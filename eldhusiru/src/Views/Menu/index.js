@@ -1,8 +1,10 @@
-import {useEffect} from 'react';
+import {useEffect, Suspense} from 'react';
 import Navigation from '../../components/Navigation';
 import FoodMenuHeader from '../../components/FoodMenuHeader';
 import FoodMenuItems from '../../components/FoodMenuItems';
 import Footer from '../../components/Footer';
+import Loading from '../../components/Loading';
+
 
 const FrontPageView = () => {
 
@@ -12,14 +14,16 @@ const FrontPageView = () => {
 
 	return (
 		<>
-			<div className='relative md:px-6 px-1 mb-32'>
-				<Navigation />
-				<div className='px-6 md:px-0 pt-32 md:pt-48 space-y-24'>
-					<FoodMenuHeader />
-					<FoodMenuItems />
+			<Suspense fallback={<Loading/>}>
+				<div className='relative md:px-6 px-1 mb-32'>
+					<Navigation />
+					<div className='px-6 md:px-0 pt-32 md:pt-48 space-y-24'>
+						<FoodMenuHeader />
+						<FoodMenuItems />
+					</div>
 				</div>
-			</div>
-			<Footer/>
+				<Footer/>
+			</Suspense>
 		</>
 	);
 }
