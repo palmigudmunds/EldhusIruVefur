@@ -15,13 +15,13 @@ const Footer = () => {
                 <p className="my-4 text-white text-xl">Eldhús Iru</p>
                 <ul className="flex flex-col justify-center items-center space-y-1 list-none list-inside text-white font-light text-sm">
                     <li >
-                        <p className='text-sm'>Grandagarður 16, Reykjavík</p>
+                        <a href="https://goo.gl/maps/oP8jpHSRucAmeGdu8"className='text-sm'>Grandagarður 16, Reykjavík</a>
                     </li>
                     <li>
-                        <p className='text-sm'>iraskitchen15@gmail.com</p>
+                        <a href="mailto:iraskitchen15@gmail.com" className='text-sm'>iraskitchen15@gmail.com</a>
                     </li>
                     <li>
-                        <p className='text-sm'>+354 848 5142</p>
+                        <a href="tel:+3548485142" className='text-sm'>+354 848 5142</a>
                     </li>
                 </ul>
                 <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />

@@ -30,7 +30,7 @@ const AboutUs = () => {
                     {t('aboutus-text3')}
                     <br></br><br></br>
                     {t('aboutus-text4')}
-                    <br></br><br></br>
+                    <br></br>
                     {t('aboutus-text5')}
                 </p>
             </div>
