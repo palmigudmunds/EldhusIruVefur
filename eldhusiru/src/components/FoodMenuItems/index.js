@@ -1,10 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import friedRice from '../../resources/fried-rice.jpeg';
-import friedNoodles from '../../resources/fried-noodles.jpeg';
-import friedRiceNoodles from '../../resources/fried-rice-noodles.jpeg';
-import noodleSoup from '../../resources/noodle-soup.jpeg';
-import chickenSatay from '../../resources/chicken-satay.jpeg';
+
+import friedRiceNoodles from '../../resources/eldhusiru-friedricenoodles-new.jpeg';
+import friedNoodles from '../../resources/eldhusiru-friednoodles-new.jpeg';
+import friedRice from '../../resources/eldhusiru-friedrice-new.jpeg';
+import noodleSoup from '../../resources/eldhusiru-noodlesoup-new.jpeg';
+import chickenSatay from '../../resources/eldhusiru-chickensatay-new.jpeg';
 
 
 
@@ -16,8 +17,8 @@ const FoodMenuItems = () => {
         <div className="flex flex-col justify-center items-center max-w-screen-xl mx-auto relative z-10">
             <div className="w-full md:w-4/6">
                 <h3 className="text-2xl md:text-4xl text-center mb-10">{t('menu-dishes-header')}</h3>
-                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-6'>
-                    <img className="h-full max-w-md rounded-3xl mr-3 md:mr-5" src={friedRice} alt="friedRice"/>
+                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                    <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={friedRice} alt="Fried rice"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-1')}</h5>
                         <ul className='leaders'>
@@ -36,8 +37,8 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-6'>
-                    <img className="h-full rounded-3xl mr-3 md:mr-5" src={friedNoodles} alt="friedNoodles"/>
+                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={friedNoodles} alt="Fried egg noodles"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-2')}</h5>
                         <ul className='leaders'>
@@ -56,8 +57,8 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-6'>
-                    <img className="h-full rounded-3xl mr-3 md:mr-5" src={friedRiceNoodles} alt="friedRiceNoodles"/>
+                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                    <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={friedRiceNoodles} alt="Fried rice noodles"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-3')}</h5>
                         <ul className='leaders'>
@@ -76,8 +77,8 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-6'>
-                    <img className="h-full rounded-3xl mr-3 md:mr-5" src={chickenSatay} alt="chickenSatay"/>
+                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                    <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={chickenSatay} alt="Chicken Satay"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-4')}</h5>
                         <ul className='leaders'>
@@ -88,8 +89,8 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-6'>
-                    <img className="h-full rounded-3xl mr-3 md:mr-5" src={noodleSoup} alt="noodleSoup"/>
+                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                    <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={noodleSoup} alt="Noodle soup"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-5')}</h5>
                         <ul className='leaders'>
