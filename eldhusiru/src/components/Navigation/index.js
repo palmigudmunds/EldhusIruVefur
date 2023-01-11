@@ -29,10 +29,10 @@ const Navigation = () => {
     }
 
     return (
-        <nav className='fixed top-0 mx-auto inset-x-0 h-auto z-40 w-full py-4 md:py-10 text-xl bg-slate-50'>
+        <nav className='fixed top-0 mx-auto inset-x-0 h-auto z-40 w-full py-4 md:py-8 text-xl bg-slate-50'>
             <div className='max-w-screen-2xl flex md:mx-auto justify-center px-6'>
                 <NavLink to={`/`}>
-                    <img className="w-40 lg:w-56 h-auto" src={logo} alt="Logo" />
+                    <img className="w-40 lg:w-48 h-auto" src={logo} alt="Logo" />
                 </NavLink>
                 <div className='flex space-x-4 lg:space-x-10 justify-between items-center ml-auto'>
                     <NavLink to={`/menu`} 
