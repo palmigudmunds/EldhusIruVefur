@@ -17,7 +17,7 @@ const FoodMenuItems = () => {
         <div className="flex flex-col justify-center items-center max-w-screen-xl mx-auto relative z-10">
             <div className="w-full md:w-4/6">
                 <h3 className="text-2xl md:text-4xl text-center mb-10">{t('menu-dishes-header')}</h3>
-                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-10'>
                     <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={friedRice} alt="Fried rice"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-1')}</h5>
@@ -37,7 +37,7 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-10'>
                 <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={friedNoodles} alt="Fried egg noodles"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-2')}</h5>
@@ -57,7 +57,7 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-10'>
                     <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={friedRiceNoodles} alt="Fried rice noodles"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-3')}</h5>
@@ -77,7 +77,7 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-10'>
                     <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={chickenSatay} alt="Chicken Satay"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-4')}</h5>
@@ -89,7 +89,7 @@ const FoodMenuItems = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-10'>
                     <img className="h-auto md:max-w-[9rem] max-w-[6rem] rounded-3xl mr-3 md:mr-5" src={noodleSoup} alt="Noodle soup"/>
                     <div className="flex flex-col justify-center w-full">
                         <h5 className="text-sm md:text-xl text-black text-left">{t('menu-dish-5')}</h5>
