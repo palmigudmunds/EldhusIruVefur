@@ -137,7 +137,7 @@ const FoodMenuItems = () => {
                             </div>
                         </div>
                     </div>
-                    <img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-3 md:ml-5 md:mr-5 " src={"https://www.cocacola.is/content/dam/one/is/is/coca-cola/coca-cola.png"} alt="Coca-cola"/>
+                    <img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-3 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/coca-cola/coca-cola.png"} alt="Coca-cola"/>
                 </div>
 
                 <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
@@ -193,7 +193,7 @@ const FoodMenuItems = () => {
                             </div>
                         </div>
                     </div>
-                    <img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-3 md:ml-5 md:mr-5" src={"https://www.cocacola.is/content/dam/one/is/is/toppur/toppur-anbragoefna.png"} alt="Coca-cola"/>
+                    <img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-3 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/toppur/toppur-anbragoefna.png"} alt="Coca-cola"/>
                 </div>
 
             </div>
