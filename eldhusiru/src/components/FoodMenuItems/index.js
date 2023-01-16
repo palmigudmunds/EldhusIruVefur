@@ -15,10 +15,10 @@ const FoodMenuItems = () => {
     
     return (
         <div className="flex flex-col justify-center items-start max-w-screen-xl mx-auto relative z-10">
-            <h3 className="text-2xl md:text-4xl text-main text-start pl-3 md:pl-0 mb-6 md:mb-10">{t('menu-dishes-header')}</h3>
+            <h3 className="text-2xl md:text-3xl text-main text-start pl-3 md:pl-0 mb-6 md:mb-10">{t('menu-dishes-header')}</h3>
             <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
 
-                <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
+                <div className='flex flex-row items-center w-full max-[407px]:h-56 border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
                     <div className="flex flex-col justify-center w-full min-h-fit relative h-full">
                         <div className='absolute inset-x-0 top-0'>
                             <h5 className="menu-item-header">{t('menu-dish-1')}</h5>
@@ -42,7 +42,7 @@ const FoodMenuItems = () => {
                     <img className="h-auto md:max-w-[7rem] max-w-[5rem] rounded-3xl md:rounded-3xl ml-3 md:ml-5 my-5" src={friedRice} alt="Fried rice"/>
                 </div>
 
-                <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
+                <div className='flex flex-row items-center w-full max-[407px]:h-56 border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
                     <div className="flex flex-col justify-center w-full min-h-fit relative h-full">
                         <div className='absolute inset-x-0 top-0'>
                             <h5 className="menu-item-header">{t('menu-dish-2')}</h5>
@@ -66,7 +66,7 @@ const FoodMenuItems = () => {
                     <img className="h-auto md:max-w-[7rem] max-w-[5rem] rounded-3xl md:rounded-3xl ml-3 md:ml-5 my-5" src={friedNoodles} alt="Fried egg noodles"/>
                 </div>
 
-                <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
+                <div className='flex flex-row items-center w-full max-[407px]:h-56 border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
                     <div className="flex flex-col justify-center w-full min-h-fit relative h-full">
                         <div className='absolute inset-x-0 top-0'>
                             <h5 className="menu-item-header">{t('menu-dish-3')}</h5>
@@ -90,7 +90,7 @@ const FoodMenuItems = () => {
                     <img className="h-auto md:max-w-[7rem] max-w-[5rem] rounded-3xl md:rounded-3xl ml-3 md:ml-5 my-5" src={friedRiceNoodles} alt="Fried rice noodles"/>
                 </div>
 
-                <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
+                <div className='flex flex-row items-center w-full max-[407px]:h-56 border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
                     <div className="flex flex-col justify-center w-full min-h-fit relative h-full">
                         <div className='absolute inset-x-0 top-0'>
                             <h5 className="menu-item-header">{t('menu-dish-4')}</h5>
@@ -106,7 +106,7 @@ const FoodMenuItems = () => {
                     <img className="h-auto md:max-w-[7rem] max-w-[5rem] rounded-3xl md:rounded-3xl ml-3 md:ml-5 my-5" src={chickenSatay} alt="Chicken Satay"/>
                 </div>
 
-                <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
+                <div className='flex flex-row items-center w-full max-[407px]:h-56 border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
                     <div className="flex flex-col justify-center w-full min-h-fit relative h-full">
                         <div className='absolute inset-x-0 top-0'>
                             <h5 className="menu-item-header">{t('menu-dish-5')}</h5>
@@ -123,7 +123,7 @@ const FoodMenuItems = () => {
                 </div>
 
             </div>
-            <h3 className="mt-6 md:mt-10 text-2xl md:text-4xl text-main text-start pl-3 md:pl-0 mb-6 md:mb-10">{t('menu-soda-header')}</h3>
+            <h3 className="mt-6 md:mt-10 text-2xl md:text-3xl text-main text-start pl-3 md:pl-0 mb-6 md:mb-10">{t('menu-soda-header')}</h3>
             <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
 
                 <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>
@@ -198,7 +198,7 @@ const FoodMenuItems = () => {
 
             </div>
 
-            <h3 className="mt-6 md:mt-10 text-2xl md:text-4xl text-main text-start pl-3 md:pl-0 mb-6 md:mb-10">{t('menu-juice-header')}</h3>
+            <h3 className="mt-6 md:mt-10 text-2xl md:text-3xl text-main text-start pl-3 md:pl-0 mb-6 md:mb-10">{t('menu-juice-header')}</h3>
             <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
 
                 <div className='flex flex-row items-center w-full min-h-fit border border-slate-200 rounded-3xl p-5 hover:bg-slate-100'>

@@ -53,18 +53,18 @@ p {
 }
 
 .menu-item-header {
-    @apply font-medium text-sm md:text-xl text-main text-left;
+    @apply font-medium text-sm md:text-lg text-main text-left;
 }
 
 .menu-item-description {
-    font-size: 0.650rem;
-    line-height: 0.8rem;
+    font-size: 0.700rem;
+    line-height: 1.2rem;
     @apply min-[437px]:text-xs md:text-sm;
 }
 
 .menu-item-price {
     font-size: 0.65rem;
-    line-height: 0.8rem;
+    line-height: 1rem;
     @apply min-[437px]:text-xs md:text-sm text-main;
 }
 
