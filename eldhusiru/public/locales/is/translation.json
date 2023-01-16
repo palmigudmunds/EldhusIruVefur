@@ -34,22 +34,35 @@
     "menu-header": "Matseðill",
     "menu-dishes-header": "Réttir",
 
-    "menu-dish-1": "1. Steikt hrísgrjón",
-    "menu-dish-2": "2. Steiktar eggjanúðlur",
-    "menu-dish-3": "3. Steiktar hrísgrjónanúðlur",
+    "menu-dish-1": "Steikt hrísgrjón",
+    "menu-dish-1-ingredients": "Hrísgrjón, egg, garlic, skalottlaukur, hvítkál, gulrót, blaðlaukur, sweet soy sauce, fish sauce, oyster sauce, salt og hvítur pipar.",
+    "menu-dish-2": "Steiktar eggjanúðlur",
+    "menu-dish-2-ingredients": "Eggjanúðlur, garlic, skalottlaukur, hvítkál, gulrót, blaðlaukur, sweet soy sauce, fish sauce, oyster sauce, salt og hvítur pipar.",
+    "menu-dish-3": "Steiktar hrísgrjónanúðlur",
+    "menu-dish-3-ingredients": "Hrísgrjónanúðlur, garlic, skalottlaukur, hvítkál, gulrót, blaðlaukur, sweet soy sauce, fish sauce, oyster sauce, salt og hvítur pipar.",
     "menu-dish-with-shrimp": "Með rækjum",
     "menu-dish-with-chicken": "Með kjúkling",
     "menu-dish-with-veg": "Með grænmeti",
 
-    "menu-dish-4": "4. Kjúklinga-Satay",
+    "menu-dish-4": "Kjúklinga-Satay",
+    "menu-dish-4-ingredients": "Kjúklingalæri, hnetusmjör, garlic, skalottlaukur, sweet soy sauce, kóríander, salt og hvítur pipar.",
     "menu-dish-4-with": "Með hnetusósu og hrísgrjónum",
 
-    "menu-dish-5": "5. Núðlusúpa",
+    "menu-dish-5": "Núðlusúpa",
+    "menu-dish-5-ingredients": "Eggjanúðlur, kjötbollur, kjúklingur, garlic, skalottlaukur, sveppir, sweet soy sauce, soy sauce, oyster sauce, paksoy, túrmerik, salt og hvítur pipar.",
     "menu-dish-5-with": "Með Indónesískum kjötbollum, kjúklingi og grænmeti",
 
-    "menu-drinks-header": "Drykkir",
-    "menu-soda": "Gos, 330ml",
-    "menu-juice": "Svali, 200ml",
+    "menu-soda-header": "Gosdrykkir",
+    "menu-cocacola": "Coca-Cola Original, 330ml",
+    "menu-cocacola-zero": "Coca-Cola án sykurs, 330ml",
+    "menu-fanta": "Fanta Appelsín án viðbætt sykurs, 330ml",
+    "menu-sprite": "Sprite án sykurs, 330ml",
+    "menu-toppur": "Toppur án bragðefna, 330ml",
+
+    "menu-juice-header": "Safar",
+    "menu-juice-orange": "Svali Appelsínu, 200ml",
+    "menu-juice-apple": "Svali Epla, 200ml",
+    "menu-juice-strawberry": "Svali Jarðaberja, 200ml",
 
     "footer-rights": "© 2023 Allur réttur áskilinn."
   }

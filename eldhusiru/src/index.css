@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,7 +15,7 @@ body {
 
 h1 {
     font-family: 'Sansita Swashed', cursive;
-    @apply lg:text-6xl md:text-5xl text-5xl font-bold text-main
+    @apply lg:text-6xl text-5xl font-bold text-main
 }
 
 .menu-header {
@@ -28,7 +30,7 @@ h2 {
 
 h3 {
     font-family: 'Lora', serif;
-    @apply text-lg md:text-2xl font-bold 
+    @apply text-lg md:text-2xl font-bold text-slate-900
 }
 
 h4 {
@@ -38,7 +40,7 @@ h4 {
 
 p {
     font-family: 'Lora', serif;
-    @apply text-base md:font-normal
+    @apply text-base md:font-normal text-slate-900
 }
 
 .label {
@@ -46,13 +48,29 @@ p {
     @apply block text-white text-base font-normal 
 }
 
+.link {
+    @apply text-base lg:text-lg cursor-pointer hover:text-main duration-100 ease-in-out;
+}
+
+.menu-item-header {
+    @apply font-medium text-sm md:text-xl text-main text-left;
+}
+
+.menu-item-description {
+    font-size: 0.650rem;
+    line-height: 0.8rem;
+    @apply min-[437px]:text-xs md:text-sm;
+}
+
+.menu-item-price {
+    font-size: 0.65rem;
+    line-height: 0.8rem;
+    @apply min-[437px]:text-xs md:text-sm text-main;
+}
+
 .tab {
     display: inline-block;
     margin-left: 40px;
-}
-
-.link {
-    @apply text-base lg:text-lg cursor-pointer hover:text-main duration-100 ease-in-out;
 }
 
 .scroll-margin {

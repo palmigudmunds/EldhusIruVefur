@@ -60,21 +60,21 @@ const Navigation = () => {
                 <div className='flex space-x-4 lg:space-x-10 justify-between items-center ml-auto'>
                     <NavLink to={`/menu`} 
                             className={({ isActive }) =>
-                                isActive ? activeClassName : 'link max-md:hidden'
+                                isActive ? activeClassName : 'text-slate-900 link max-md:hidden'
                             }
                             >
                         {t('nav-menu')}
                     </NavLink>
-                    <NavLink to={`/#UmOkkur`} className='link max-md:hidden'>
+                    <NavLink to={`/#UmOkkur`} className='link text-slate-900 max-md:hidden'>
                         {t('nav-about')}
                     </NavLink>
                     <NavLink to={`/#Opnunartimi&Stadsetning`}>
-                        <button className='link max-md:hidden'>{t('nav-hourslocation')}</button>
+                        <button className='link text-slate-900 max-md:hidden'>{t('nav-hourslocation')}</button>
                     </NavLink>
                     <NavLink to={`/#HafaSamband`}>
-                        <button className='link max-md:hidden'>{t('nav-contact')}</button>
+                        <button className='link text-slate-900 max-md:hidden'>{t('nav-contact')}</button>
                     </NavLink>
-                    <div className='flex items-center space-x-1 cursor-pointer hover:text-main fill-black hover:fill-main duration-100 ease-in-out' onClick={() => changeLocale()}>
+                    <div className='flex items-center space-x-1 cursor-pointer text-slate-900 hover:text-main fill-slate-900 hover:fill-main duration-100 ease-in-out' onClick={() => changeLocale()}>
                         {/* <svg className="w-8 h-8 bg-black" src={world} alt="Languages"></svg> */}
                         {/* <img className="w-3.5 h-auto" src={world} alt="Languages"/> */}
                         <World className='-mb-0.5 lg:-mb-px w-3.5 h-auto'/>
