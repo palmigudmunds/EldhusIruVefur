@@ -59,13 +59,13 @@ p {
 .menu-item-description {
     font-size: 0.700rem;
     line-height: 1.2rem;
-    @apply min-[437px]:text-xs md:text-sm;
+    @apply min-[437px]:text-xs md:text-sm font-medium;
 }
 
 .menu-item-price {
     font-size: 0.700rem;
     line-height: 1rem;
-    @apply min-[437px]:text-xs md:text-sm text-main;
+    @apply min-[437px]:text-xs md:text-sm text-main font-medium;
 }
 
 .tab {
