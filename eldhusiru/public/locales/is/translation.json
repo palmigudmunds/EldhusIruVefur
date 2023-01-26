@@ -6,7 +6,7 @@
     "language": "EN",
 
     "header-main": "Smakkaðu ekta Indónesískan mat",
-    "header-phone-text": "Pantaðu í síma 848-5143",
+    "header-phone-text": "Pantaðu í síma 615-4400",
     "see-menu-button": "Sjá matseðil",
 
     "aboutus-header": "Um okkur",
@@ -34,23 +34,23 @@
     "menu-header": "Matseðill",
     "menu-dishes-header": "Réttir",
 
-    "menu-dish-1": "Steikt hrísgrjón",
-    "menu-dish-1-ingredients": "Hrísgrjón, egg, garlic, skalottlaukur, hvítkál, gulrót, blaðlaukur, sweet soy sauce, fish sauce, oyster sauce, salt og hvítur pipar.",
-    "menu-dish-2": "Steiktar eggjanúðlur",
-    "menu-dish-2-ingredients": "Eggjanúðlur, garlic, skalottlaukur, hvítkál, gulrót, blaðlaukur, sweet soy sauce, fish sauce, oyster sauce, salt og hvítur pipar.",
-    "menu-dish-3": "Steiktar hrísgrjónanúðlur",
-    "menu-dish-3-ingredients": "Hrísgrjónanúðlur, garlic, skalottlaukur, hvítkál, gulrót, blaðlaukur, sweet soy sauce, fish sauce, oyster sauce, salt og hvítur pipar.",
+    "menu-dish-1": "Steikt hrísgrjón (Nasi Goreng)",
+    "menu-dish-1-ingredients": "Hrísgrjón, egg, skalottlaukur, hvítkál, gulrót, blaðlaukur, sæt sojasósa, oyster sósa.",
+    "menu-dish-2": "Steiktar eggjanúðlur (Mie Goreng)",
+    "menu-dish-2-ingredients": "Eggjanúðlur, egg, skalottlaukur, hvítkál, gulrót, blaðlaukur, sæt sojasósa, oyster sósa.",
+    "menu-dish-3": "Steiktar hrísgrjónanúðlur (Kwetiau Goreng)",
+    "menu-dish-3-ingredients": "Hrísgrjónanúðlur, egg, skalottlaukur, hvítkál, gulrót, blaðlaukur, sæt sojasósa, oyster sósa.",
     "menu-dish-with-shrimp": "Með rækjum",
     "menu-dish-with-chicken": "Með kjúkling",
     "menu-dish-with-veg": "Með grænmeti",
 
-    "menu-dish-4": "Kjúklinga-Satay",
-    "menu-dish-4-ingredients": "Kjúklingalæri, hnetusmjör, garlic, skalottlaukur, sweet soy sauce, kóríander, salt og hvítur pipar.",
+    "menu-dish-4": "Satay - Kjúklingaspjót (Sate Ayam)",
+    "menu-dish-4-ingredients": "Kjúklingalæri á spjóti og satay hnetusósa.",
     "menu-dish-4-with": "Með hnetusósu og hrísgrjónum",
 
-    "menu-dish-5": "Núðlusúpa",
-    "menu-dish-5-ingredients": "Eggjanúðlur, kjötbollur, kjúklingur, garlic, skalottlaukur, sveppir, sweet soy sauce, soy sauce, oyster sauce, paksoy, túrmerik, salt og hvítur pipar.",
-    "menu-dish-5-with": "Með Indónesískum kjötbollum, kjúklingi og grænmeti",
+    "menu-dish-5": "Núðlusúpa (Mie Ayam)",
+    "menu-dish-5-ingredients": "Eggjanúðlur, indónesískar kjötbollur, kjúklingur, skalottlaukur, sveppir, blaðkál, sojasósa, sæt sojasósa, oyster sósa.",
+    "menu-dish-5-with": "Með Indónesískum kjötbollum (bakso), kjúklingi og grænmeti",
 
     "menu-soda-header": "Gosdrykkir",
     "menu-cocacola": "Coca-Cola Original, 330ml",

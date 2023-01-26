@@ -6,7 +6,7 @@
     "language": "IS",
 
     "header-main": "Taste authentic Indonesian food",
-    "header-phone-text": "Order by calling +354 848-5143",
+    "header-phone-text": "Order by calling +354 615-4400",
     "see-menu-button": "See menu",
 
     "aboutus-header": "About us",
@@ -34,23 +34,23 @@
     "menu-header": "Menu",
     "menu-dishes-header": "Dishes",
 
-    "menu-dish-1": "Fried rice",
-    "menu-dish-1-ingredients": "Rice, egg, garlic, shallot, cabbage, carrot, leeks, sweet soy sauce, fish sauce, oyster sauce, salt and white pepper.",
-    "menu-dish-2": "Fried egg noodles",
-    "menu-dish-2-ingredients": "Egg noodles, garlic, shallot, cabbage, carrot, leeks, sweet soy sauce, fish sauce, oyster sauce, salt and white pepper.",
-    "menu-dish-3": "Fried rice noodles",
-    "menu-dish-3-ingredients": "Rice noodles, garlic, shallot, cabbage, carrot, leeks, sweet soy sauce, fish sauce, oyster sauce, salt and white pepper.",
+    "menu-dish-1": "Fried rice (Nasi Goreng)",
+    "menu-dish-1-ingredients": "Rice, egg, shallot, cabbage, carrot, leeks, sweet soy sauce, fish sauce, oyster sauce.",
+    "menu-dish-2": "Fried egg noodles (Mie Goreng)",
+    "menu-dish-2-ingredients": "Egg noodles, egg, shallot, cabbage, carrot, leeks, sweet soy sauce, fish sauce, oyster sauce.",
+    "menu-dish-3": "Fried rice noodles  (Kwetiau Goreng)",
+    "menu-dish-3-ingredients": "Rice noodles, egg, shallot, cabbage, carrot, leeks, sweet soy sauce, fish sauce, oyster sauce.",
     "menu-dish-with-shrimp": "With shrimp",
     "menu-dish-with-chicken": "With chicken",
     "menu-dish-with-veg": "With vegetables",
 
-    "menu-dish-4": "Chicken satay",
-    "menu-dish-4-ingredients": "Chicken thighs, peanut butter, garlic, shallot, sweet soy sauce, coriander, salt and white pepper.",
+    "menu-dish-4": "Chicken satay (Sate Ayam)",
+    "menu-dish-4-ingredients": "Chicken thighs on sticks with satay peanut sauce.",
     "menu-dish-4-with": "With peanut sauce and rice",
 
-    "menu-dish-5": "Noodle soup",
-    "menu-dish-5-ingredients": "Egg noodles, meatballs, chicken, garlic, shallot, mushroom, sweet soy sauce, soy sauce, oyster sauce, paksoy, turmeric, salt and white pepper.",
-    "menu-dish-5-with": "With Indonesian meatballs, chicken and vegetables",
+    "menu-dish-5": "Noodle soup (Mie Ayam)",
+    "menu-dish-5-ingredients": "Egg noodles, meatballs, chicken, shallot, mushroom, sweet soy sauce, soy sauce, oyster sauce, pak choi.",
+    "menu-dish-5-with": "with Indonesian meatballs (bakso), chicken and vegetable ",
 
     "menu-soda-header": "Soda drinks",
     "menu-cocacola": "Coca-Cola Original, 330ml",
