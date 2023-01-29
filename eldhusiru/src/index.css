@@ -49,7 +49,7 @@ p {
 }
 
 .link {
-    @apply text-base lg:text-lg cursor-pointer hover:text-main duration-100 ease-in-out;
+    @apply text-base lg:text-lg font-medium cursor-pointer hover:text-main duration-100 ease-in-out;
 }
 
 .menu-item-header {
