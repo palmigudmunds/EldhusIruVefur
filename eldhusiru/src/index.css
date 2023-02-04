@@ -10,7 +10,7 @@
 body { 
     background: #ffffff;
     font-family: 'Lora', serif;
-    @apply bg-slate-50;
+    @apply bg-gray-50;
 }
 
 h1 {
@@ -57,15 +57,15 @@ p {
 }
 
 .menu-item-description {
-    font-size: 0.700rem;
+    font-size: 0.500rem;
     line-height: 1.2rem;
-    @apply min-[437px]:text-xs md:text-sm font-medium;
+    @apply min-[325px]:text-[0.700rem] min-[437px]:text-xs md:text-sm;
 }
 
 .menu-item-price {
-    font-size: 0.700rem;
+    font-size: 0.500rem;
     line-height: 1rem;
-    @apply min-[437px]:text-xs md:text-sm text-main font-medium;
+    @apply min-[325px]:text-[0.700rem] min-[437px]:text-xs md:text-sm text-main font-medium;
 }
 
 .tab {

@@ -52,10 +52,10 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto inset-x-0 h-auto z-40 w-full max-w-none md:max-w-screen-xl mx-auto py-4 md:py-8 text-xl bg-slate-50 transition-all duration-300 sticky ${visible ? 'top-0' : '-top-24'} md:fixed md:top-0`}>
-            <div className='max-w-screen-2xl flex md:mx-auto justify-center px-6 lg:px-0'>
+        <nav className={`mx-auto inset-x-0 h-auto z-40 w-full max-w-none mx-auto py-4 md:py-8 drop-shadow md:drop-shadow-none bg-gray-50 text-xl transition-all duration-300 sticky ${visible ? 'top-0' : '-top-24'} md:fixed md:top-0`}>
+            <div className='md:max-w-screen-xl flex md:mx-auto justify-center px-6 lg:px-0'>
                 <NavLink to={`/`}>
-                    <img className="w-40 lg:w-48 h-auto" src={logo} alt="Logo" />
+                    <img className="w-28 md:w-36 lg:w-48 h-auto" src={logo} alt="Logo" />
                 </NavLink>
                 <div className='flex space-x-4 lg:space-x-10 justify-between items-center ml-auto'>
                     <NavLink to={`/menu`} 
