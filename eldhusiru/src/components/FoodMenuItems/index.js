@@ -1,11 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import friedRiceNoodles from '../../resources/eldhusiru-friedricenoodles-new.jpeg';
-import friedNoodles from '../../resources/eldhusiru-friednoodles-new.jpeg';
-import friedRice from '../../resources/eldhusiru-friedrice-new.jpeg';
-import noodleSoup from '../../resources/eldhusiru-noodlesoup-new.jpeg';
-import chickenSatay from '../../resources/eldhusiru-chickensatay-new.jpeg';
+import friedRiceNoodles from '../../resources/menu-images/rice-noodles.png';
+import friedNoodles from '../../resources/menu-images/egg-noodles.png';
+import friedRice from '../../resources/menu-images/fried-rice.png';
+import noodleSoup from '../../resources/menu-images/noodle-soup.png';
+import chickenSatay from '../../resources/menu-images/chicken-satay.png';
 
 
 
