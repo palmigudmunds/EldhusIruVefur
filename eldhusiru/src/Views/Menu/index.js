@@ -17,7 +17,7 @@ const MenuView = () => {
 			<Suspense fallback={<Loading/>}>
 				<div className='relative md:px-6 mb-32'>
 					<Navigation />
-					<div className='md:px-0 pt-9 md:pt-48 space-y-16 md:space-y-24'>
+					<div className='md:px-0 px-3 pt-9 md:pt-48 space-y-16 md:space-y-24'>
 						<FoodMenuHeader />
 						<FoodMenuItems />
 					</div>
