@@ -78,27 +78,27 @@ const FoodMenuItems = () => {
                 <DrinkItemCard 
                     name={t('menu-cocacola')}
                     price={"390 kr."}
-                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-8 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/coca-cola/coca-cola.png"} alt="Coca-cola"/>}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/coca-cola/coca-cola.png"} alt="Coca-cola"/>}
                 />
                 <DrinkItemCard 
                     name={t('menu-cocacola-zero')}
                     price={"390 kr."}
-                    image={<img className="h-auto md:max-h-[6rem] max-h-[4rem] ml-3 mr-11 md:ml-5 md:mr-10" src={"https://www.coca-cola.se/content/dam/one/se/sv/products/coca-cola-zero-sugar-new-sept-22.png"} alt="Coca-cola Zero"/>}
+                    image={<img className="h-auto md:max-h-[6rem] max-h-[4rem] ml-3 mr-8 md:ml-5 md:mr-10" src={"https://www.coca-cola.se/content/dam/one/se/sv/products/coca-cola-zero-sugar-new-sept-22.png"} alt="Coca-cola Zero"/>}
                 />
                 <DrinkItemCard 
                     name={t('menu-fanta')}
                     price={"390 kr."}
-                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-8 md:ml-5 md:mr-5 -my-2 md:my-0" src={"https://www.cocacola.is/content/dam/one/is/is/fanta/fanta-an-sykurs.png"} alt="Fanta"/>}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5 -my-2 md:my-0" src={"https://www.cocacola.is/content/dam/one/is/is/fanta/fanta-an-sykurs.png"} alt="Fanta"/>}
                 />
                 <DrinkItemCard 
                     name={t('menu-sprite')}
                     price={"390 kr."}
-                    image={<img className="h-auto md:max-h-[6rem] max-h-[4rem] ml-3 mr-12 md:ml-5 md:mr-10" src={"https://www.coca-cola.se/content/dam/one/se/sv/products/sprite-zero-px1500.jpg"} alt="Sprite"/>}
+                    image={<img className="h-auto md:max-h-[6rem] max-h-[4rem] ml-3 mr-8 md:ml-5 md:mr-10" src={"https://www.coca-cola.se/content/dam/one/se/sv/products/sprite-zero-px1500.jpg"} alt="Sprite"/>}
                 />
                 <DrinkItemCard 
                     name={t('menu-toppur')}
                     price={"390 kr."}
-                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-8 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/toppur/toppur-anbragoefna.png"} alt="Toppur"/>}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/toppur/toppur-anbragoefna.png"} alt="Toppur"/>}
                 />
 
             </div>
@@ -108,17 +108,17 @@ const FoodMenuItems = () => {
                 <DrinkItemCard 
                     name={t('menu-juice-orange')}
                     price={"250 kr."}
-                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-8 md:ml-5 md:mr-5" src={"https://www.cocacola.is/content/dam/one/is/is/svali/svali-appelsinu.png"} alt="Svali Appelsínu"/>}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5" src={"https://www.cocacola.is/content/dam/one/is/is/svali/svali-appelsinu.png"} alt="Svali Appelsínu"/>}
                 />
                 <DrinkItemCard 
                     name={t('menu-juice-apple')}
                     price={"250 kr."}
-                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-8 md:ml-5 md:mr-5" src={"https://www.cocacola.is/content/dam/one/is/is/svali/svali-epla.png"} alt="Svali Epla"/>}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5" src={"https://www.cocacola.is/content/dam/one/is/is/svali/svali-epla.png"} alt="Svali Epla"/>}
                 />
                 <DrinkItemCard 
                     name={t('menu-juice-strawberry')}
                     price={"250 kr."}
-                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-8 md:ml-5 md:mr-5" src={"https://www.cocacola.is/content/dam/one/is/is/svali/svali-jardaberja.png"} alt="Svali Jarðarberja"/>}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5" src={"https://www.cocacola.is/content/dam/one/is/is/svali/svali-jardaberja.png"} alt="Svali Jarðarberja"/>}
                 />
             </div>
 
