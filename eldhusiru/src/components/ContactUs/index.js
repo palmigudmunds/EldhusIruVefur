@@ -36,7 +36,7 @@ const ContactUs = () => {
     
     return (
         <div id="HafaSamband" className="flex flex-row justify-center max-w-screen-xl mx-auto relative">
-            <div className='md:w-8/12 w-full bg-main rounded-3xl h-96 mb-6'>
+            <div className='md:w-8/12 w-full bg-main rounded-2xl h-96 mb-6'>
                 <h4 className="text-center mt-6">{t('contact-header')}</h4>
                 <form onSubmit={onSubmit}>
                     <div className="md:mb-6 mt-4 flex flex-col items-center md:flex-row justify-between">

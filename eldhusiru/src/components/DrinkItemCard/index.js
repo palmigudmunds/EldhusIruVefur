@@ -3,7 +3,7 @@ import React from 'react';
 function DrinkItemCard({ name, price, image }) {
 
     return (
-        <div className='flex flex-row items-center w-full h-36 bg-white rounded-3xl p-5 hover:shadow-md hover:cursor-pointer'>
+        <div className='flex flex-row items-center w-full h-36 bg-white rounded-2xl p-5 hover:shadow-md hover:cursor-pointer ease-in-out duration-150 '>
             <div className="flex flex-col justify-center w-full min-h-fit relative h-full">
                 <div className='absolute inset-x-0 top-0'>
                     <h5 className="menu-item-header">{name}</h5>

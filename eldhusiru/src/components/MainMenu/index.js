@@ -23,7 +23,7 @@ const MainMenu = () => {
             </div>
             <div className="flex justify-center w-full h-full md:w-1/2 md:max-h-screen mt-5 md:mt-0">
                 {/* <div className='w-full md:w-11/12 h-full md:h-5/6 border-2 border-black-500 rounded-3xl'></div> */}
-                <img className="w-full h-auto object-cover rounded-3xl md:max-w-[35rem] max-w-[24rem]" src={diskur} alt="diskur"/>
+                <img className="w-full h-auto object-cover rounded-2xl md:max-w-[35rem] max-w-[24rem]" src={diskur} alt="diskur"/>
             </div>
         </div>
     );

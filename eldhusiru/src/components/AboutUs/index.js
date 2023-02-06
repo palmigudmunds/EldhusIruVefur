@@ -10,11 +10,11 @@ const AboutUs = () => {
     return (
         <div id="UmOkkur" className="flex flex-col-reverse md:flex-row justify-start max-w-none md:max-w-screen-xl mx-auto">
             <div className="flex flex-col justify-center items-center md:w-1/2 pt-5 md:pt-0">
-                <img className="w-full h-auto object-cover rounded-3xl md:max-w-[35rem] max-w-[24rem] mb-5" src={eigendur} alt="Eigendur"/>
+                <img className="w-full h-auto object-cover rounded-2xl md:max-w-[35rem] max-w-[24rem] mb-5" src={eigendur} alt="Eigendur"/>
                 {/* <div className='w-full md:w-11/12 border-2 border-black-500 rounded-3xl h-56 mb-6'>
 
                 </div> */}
-                <img className="w-full h-auto object-cover rounded-3xl md:max-w-[35rem] max-w-[24rem]" src={grandiMathollInni} alt="Matholl Granda Inni"/>
+                <img className="w-full h-auto object-cover rounded-2xl md:max-w-[35rem] max-w-[24rem]" src={grandiMathollInni} alt="Matholl Granda Inni"/>
                 {/* <div className='w-full md:w-11/12 border-2 border-black-500 rounded-3xl h-56'>
 
                 </div> */}

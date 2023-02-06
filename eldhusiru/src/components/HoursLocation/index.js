@@ -16,7 +16,7 @@ const HoursLocation = () => {
                 <p className="mt-1">{t('location-text')}</p>
             </div>
             <div className="md:w-1/2 flex flex-col items-center pt-5">
-                <img className="w-full h-auto object-cover rounded-3xl md:max-w-[35rem] max-w-[24rem]" src={grandiMathollUti} alt="Matholl Granda Uti"/>
+                <img className="w-full h-auto object-cover rounded-2xl md:max-w-[35rem] max-w-[24rem]" src={grandiMathollUti} alt="Matholl Granda Uti"/>
                 {/* <div className='w-11/12 border-2 border-black-500 rounded-3xl mb-6 h-56'>
                 </div> */}
             </div>
