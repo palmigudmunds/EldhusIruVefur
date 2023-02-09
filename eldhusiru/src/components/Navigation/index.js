@@ -78,7 +78,7 @@ const Navigation = () => {
                         {/* <svg className="w-8 h-8 bg-black" src={world} alt="Languages"></svg> */}
                         {/* <img className="w-3.5 h-auto" src={world} alt="Languages"/> */}
                         <World className='-mb-0.5 stroke-2 mb-px lg:mb-0 w-3.5 h-auto'/>
-                        <NavLink className='text-sm lg:text-lg font-normal'>
+                        <NavLink className='text-base md:text-sm lg:text-lg font-normal'>
                             {t('language')}
                         </NavLink>
                     </div>
