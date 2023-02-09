@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +10,8 @@
 
 body { 
     background: #ffffff;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans serif;
+    @apply bg-gray-100;
 }
 
 h1 {
@@ -28,8 +30,8 @@ h2 {
 }
 
 h3 {
-    font-family: 'Lora', serif;
-    @apply text-lg md:text-2xl font-semibold text-slate-900
+    font-family: 'Roboto', sans serif;
+    @apply text-lg md:text-2xl font-medium text-slate-900
 }
 
 h4 {
@@ -38,33 +40,33 @@ h4 {
 }
 
 p {
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans serif;
     @apply text-base md:font-normal text-slate-900
 }
 
 .label {
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans serif;
     @apply block text-white text-base font-normal 
 }
 
 .link {
-    @apply text-base lg:text-lg font-medium cursor-pointer hover:text-main duration-100 ease-in-out;
+    @apply text-sm lg:text-lg font-normal uppercase cursor-pointer hover:text-main duration-100 ease-in-out;
 }
 
 .menu-item-header {
-    @apply text-sm md:text-lg text-main text-left font-semibold;
+    @apply text-sm md:text-lg text-main text-left font-medium uppercase;
 }
 
 .menu-item-description {
     font-size: 0.500rem;
     line-height: 1.2rem;
-    @apply min-[325px]:text-[0.700rem] min-[437px]:text-xs md:text-sm;
+    @apply min-[325px]:text-[0.700rem] min-[437px]:text-xs md:text-sm font-normal;
 }
 
 .menu-item-price {
     font-size: 0.500rem;
     line-height: 1rem;
-    @apply min-[325px]:text-[0.700rem] min-[437px]:text-xs md:text-sm text-main font-medium;
+    @apply min-[325px]:text-[0.700rem] min-[437px]:text-xs md:text-sm text-main font-normal;
 }
 
 .tab {

@@ -52,7 +52,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto inset-x-0 h-auto z-40 w-full max-w-none mx-auto py-4 md:py-8 bg-white text-xl transition-all duration-300 sticky ${visible ? 'top-0' : '-top-24'} md:fixed md:top-0`}>
+        <nav className={`mx-auto inset-x-0 h-auto z-40 w-full max-w-none mx-auto py-4 md:py-8 bg-gray-100 text-xl transition-all duration-300 sticky ${visible ? 'top-0' : '-top-24'} md:fixed md:top-0`}>
             <div className='md:max-w-screen-xl flex md:mx-auto justify-center px-6 lg:px-0'>
                 <NavLink to={`/`}>
                     <img className="w-32 md:w-36 lg:w-48 h-auto" src={logo} alt="Logo" />
@@ -68,18 +68,18 @@ const Navigation = () => {
                     <NavLink to={`/#UmOkkur`} className='link text-slate-900 max-md:hidden'>
                         {t('nav-about')}
                     </NavLink>
-                    <NavLink to={`/#Opnunartimi&Stadsetning`}>
-                        <button className='link text-slate-900 max-md:hidden'>{t('nav-hourslocation')}</button>
+                    <NavLink to={`/#Opnunartimi&Stadsetning`} className='link text-slate-900 max-md:hidden'>
+                        {t('nav-hourslocation')}
                     </NavLink>
-                    <NavLink to={`/#HafaSamband`}>
-                        <button className='link text-slate-900 max-md:hidden'>{t('nav-contact')}</button>
+                    <NavLink to={`/#HafaSamband`} className='link text-slate-900 max-md:hidden'>
+                        {t('nav-contact')}
                     </NavLink>
                     <div className='flex items-center space-x-1 cursor-pointer font-medium text-slate-900 hover:text-main fill-slate-900 hover:fill-main duration-100 ease-in-out' onClick={() => changeLocale()}>
                         {/* <svg className="w-8 h-8 bg-black" src={world} alt="Languages"></svg> */}
                         {/* <img className="w-3.5 h-auto" src={world} alt="Languages"/> */}
-                        <World className='-mb-0.5 stroke-2 lg:-mb-px w-3.5 h-auto'/>
-                        <NavLink >
-                            <button className='text-base lg:text-lg'>{t('language')}</button>
+                        <World className='-mb-0.5 stroke-2 mb-px lg:mb-0 w-3.5 h-auto'/>
+                        <NavLink className='text-sm lg:text-lg font-normal'>
+                            {t('language')}
                         </NavLink>
                     </div>
                 </div>

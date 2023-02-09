@@ -17,7 +17,7 @@ const MainMenu = () => {
                 <h3 className="pt-5">{t('header-phone-text')}</h3>
                 <div className="pt-5">
                     <button
-                        className="bg-main text-white text-lg md:text-xl font-semibold py-4 px-8 rounded-full hover:bg-red-700 ease-in-out"
+                        className="bg-main text-white text-lg md:text-xl font-medium py-4 px-8 rounded-full hover:bg-red-700 ease-in-out"
                         onClick={()=> navigate('/menu')}>{t('see-menu-button')}</button>
                 </div>
             </div>

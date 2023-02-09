@@ -16,7 +16,7 @@ const FoodMenuItems = () => {
     const { t } = useTranslation();
     
     return (
-        <div className='bg-gray-100 pb-32 pt-6 md:pt-10 border-t border-gray-200 px-3'>
+        <div className='pb-32 pt-6 md:pt-10 px-3'>
         <div className="flex flex-col justify-center items-start max-w-screen-xl mx-auto relative z-10">
             <h2 className="text-start pl-3 md:pl-0 mb-6 md:mb-10">{t('menu-dishes-header')}</h2>
             <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-4">
