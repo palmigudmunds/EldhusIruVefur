@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +7,7 @@
 
 body { 
     background: #ffffff;
-    font-family: 'Roboto', sans serif;
+    font-family: 'Open Sans', sans-serif;
     @apply bg-gray-100;
 }
 
@@ -30,8 +27,8 @@ h2 {
 }
 
 h3 {
-    font-family: 'Roboto', sans serif;
-    @apply text-lg md:text-2xl font-medium text-slate-900
+    font-family: 'Open Sans', sans-serif;
+    @apply text-lg md:text-xl font-medium text-slate-900
 }
 
 h4 {
@@ -40,21 +37,21 @@ h4 {
 }
 
 p {
-    font-family: 'Roboto', sans serif;
+    font-family: 'Open Sans', sans-serif;
     @apply text-base md:font-normal text-slate-900
 }
 
 .label {
-    font-family: 'Roboto', sans serif;
+    font-family: 'Open Sans', sans-serif;
     @apply block text-white text-base font-normal 
 }
 
 .link {
-    @apply text-sm lg:text-lg font-normal uppercase cursor-pointer hover:text-main duration-100 ease-in-out;
+    @apply text-sm lg:text-lg font-normal cursor-pointer hover:text-main duration-100 ease-in-out;
 }
 
 .menu-item-header {
-    @apply text-sm md:text-lg text-main text-left font-medium uppercase;
+    @apply text-sm md:text-lg text-main text-left font-medium;
 }
 
 .menu-item-description {

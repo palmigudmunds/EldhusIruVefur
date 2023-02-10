@@ -21,7 +21,6 @@ const Navigation = () => {
     const [visible, setVisible] = useState(true)
 
     const handleScroll = () => {
-        console.log('scrolling')
         const currentScrollPos = window.scrollY
 
         if(currentScrollPos > prevScrollPos){

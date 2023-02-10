@@ -36,10 +36,10 @@ const ContactUs = () => {
     
     return (
         <div id="HafaSamband" className="flex flex-row justify-center max-w-screen-xl mx-auto relative">
-            <div className='md:w-8/12 w-full bg-main rounded-2xl h-96 mb-6'>
-                <h4 className="text-center mt-6">{t('contact-header')}</h4>
+            <div className='md:w-8/12 w-full bg-main rounded-2xl h-[400px] mb-6'>
+                <h2 className="text-center mt-6 text-white">{t('contact-header')}</h2>
                 <form onSubmit={onSubmit}>
-                    <div className="md:mb-6 mt-4 flex flex-col items-center md:flex-row justify-between">
+                    <div className="md:mb-6 mt-6 flex flex-col items-center md:flex-row justify-between">
                         <div className='w-10/12 md:w-5/12 md:ml-12'>
                             <label className="label md:mb-2" for="name">
                                 {t('contact-name')}
