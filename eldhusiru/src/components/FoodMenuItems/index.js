@@ -57,14 +57,14 @@ const FoodMenuItems = () => {
                     prices={[
                         {desc: t('menu-dish-4-with'), price: '2.690 kr.'}
                         ]} 
-                    ingredients={t('menu-dish-3-ingredients')} 
+                    ingredients={t('menu-dish-4-ingredients')} 
                     image={chickenSatay} 
                     imageAlt="Chicken Satay"
                 />
                 <FoodItemCard 
                     name={t('menu-dish-5')} 
                     prices={[
-                        {desc: t('menu-dish-5-with'), price: '2.590 kr.'}
+                        {desc: t('menu-dish-5-with'), price: '2.690 kr.'}
                         ]} 
                     ingredients={t('menu-dish-5-ingredients')} 
                     image={noodleSoup} 
@@ -99,6 +99,16 @@ const FoodMenuItems = () => {
                     name={t('menu-toppur')}
                     price={"390 kr."}
                     image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/toppur/toppur-anbragoefna.png"} alt="Toppur"/>}
+                />
+                <DrinkItemCard 
+                    name={t('menu-toppur-apple')}
+                    price={"390 kr."}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/toppur/toppur-eplados.png"} alt="Toppur Epla"/>}
+                />
+                <DrinkItemCard 
+                    name={t('menu-toppur-lemon-lime')}
+                    price={"390 kr."}
+                    image={<img className="h-auto md:max-h-[7rem] max-h-[5rem] ml-3 mr-5 md:ml-5 md:mr-5 -my-2" src={"https://www.cocacola.is/content/dam/one/is/is/toppur/toppur-limonuog-sitronu.png"} alt="Toppur lime lemon"/>}
                 />
 
             </div>
