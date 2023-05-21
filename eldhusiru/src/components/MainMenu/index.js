@@ -21,7 +21,7 @@ const MainMenu = () => {
             {t("order-now-button")}
           </a>
           <Link
-            to="/menu"
+            to="/order"
             className="text-main hover:text-red-400 text-lg md:text-xl font-medium ease-in-out duration-300"
           >
             {t("see-menu-button")}

@@ -5,6 +5,7 @@ import i18n from './i18n';
 
 import FrontPage from "./Views/FrontPage";
 import Menu from "./Views/Menu";
+import Order from "./Views/Order";
 import LocaleContext from './LocaleContext';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Routes>
             <Route path="/" element={<FrontPage/>} />
             <Route activeClassName='text-main' exact path="/menu" element={<Menu/>}  />
+            <Route activeClassName='text-main' exact path="/order" element={<Order/>}  />
           </Routes>
         </div>
       </LocaleContext.Provider>

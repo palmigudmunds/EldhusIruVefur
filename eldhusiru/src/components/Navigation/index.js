@@ -18,25 +18,25 @@ const Navigation = () => {
 
     const [prevScrollPos, setPrevScrollPos] = useState(0);
 
-    const [visible, setVisible] = useState(true)
+    // const [visible, setVisible] = useState(true)
 
-    const handleScroll = () => {
-        const currentScrollPos = window.scrollY
+    // const handleScroll = () => {
+    //     const currentScrollPos = window.scrollY
 
-        if(currentScrollPos > prevScrollPos){
-            setVisible(false)
-        }else{
-            setVisible(true)
-        }
+    //     if(currentScrollPos > prevScrollPos){
+    //         setVisible(false)
+    //     }else{
+    //         setVisible(true)
+    //     }
 
-        setPrevScrollPos(currentScrollPos)
-    }
+    //     setPrevScrollPos(currentScrollPos)
+    // }
 
-    useEffect( () => {
-        window.addEventListener('scroll', handleScroll);
+    // useEffect( () => {
+    //     window.addEventListener('scroll', handleScroll);
 
-        return () => window.removeEventListener('scroll', handleScroll)
-    })
+    //     return () => window.removeEventListener('scroll', handleScroll)
+    // })
 
     function changeLocale () {
         let l;
@@ -51,13 +51,13 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto inset-x-0 h-auto z-40 w-full max-w-none mx-auto py-4 md:py-8 bg-gray-100 text-xl transition-all duration-300 sticky ${visible ? 'top-0' : '-top-24'} md:fixed md:top-0`}>
+        <nav className={`mx-auto inset-x-0 h-auto z-40 w-full max-w-none mx-auto py-4 md:py-8 bg-gray-100 text-xl transition-all duration-300 sticky top-0 md:fixed md:top-0`}>
             <div className='md:max-w-screen-xl flex md:mx-auto justify-center px-6 lg:px-0'>
                 <NavLink to={`/`}>
                     <img className="w-32 md:w-36 lg:w-48 h-auto" src={logo} alt="Logo" />
                 </NavLink>
                 <div className='flex space-x-4 lg:space-x-10 justify-between items-center ml-auto'>
-                    <NavLink to={`/menu`} 
+                    <NavLink to={`/order`} 
                             className={({ isActive }) =>
                                 isActive ? activeClassName : 'text-slate-900 link max-md:hidden'
                             }
