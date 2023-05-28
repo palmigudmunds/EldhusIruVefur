@@ -35,8 +35,8 @@ const ContactUs = () => {
     }
     
     return (
-        <div id="HafaSamband" className="flex flex-row justify-center max-w-screen-xl mx-auto relative">
-            <div className='md:w-8/12 w-full bg-main rounded-2xl h-[400px] mb-6'>
+        <div id="contact-us" className="flex flex-row justify-center max-w-screen-xl mx-auto relative">
+            <div className='md:w-8/12 w-full bg-main rounded-2xl h-auto'>
                 <h2 className="text-center mt-6 text-white">{t('contact-header')}</h2>
                 <form onSubmit={onSubmit}>
                     <div className="md:mb-6 mt-6 flex flex-col items-center md:flex-row justify-between">
@@ -45,7 +45,7 @@ const ContactUs = () => {
                                 {t('contact-name')}
                             </label>
                             <input 
-                                className="shadow appearance-none border rounded w-full mb-3 md:mb-0 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
+                                className="contactus-input" 
                                 id="form-input-control-last-name" 
                                 name='user_name'
                                 type="text"
@@ -57,7 +57,7 @@ const ContactUs = () => {
                                 {t('contact-email')}
                             </label>
                             <input 
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
+                                className="contactus-input" 
                                 id="form-input-control-email" 
                                 name='user_email'
                                 type="text"
@@ -65,13 +65,13 @@ const ContactUs = () => {
                                 />
                         </div>
                     </div>
-                    <div className="mt-3 md:mt-0 md:mb-6 flex flex-row justify-center h-16 md:h-24">
+                    <div className="mt-3 md:mt-0 mb-10 flex flex-row justify-center h-24">
                         <div className='w-10/12 md:w-11/12 md:mr-12 md:ml-12 md:h-full'>
                             <label className="label md:mb-2" for="message">
                                 {t('contact-message')}
                             </label>
                             <textarea 
-                                className="block shadow appearance-none h-full border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
+                                className="contactus-textarea" 
                                 id='form-textarea-control-opinion'
                                 name='user_message'
                                 type="text"
@@ -79,9 +79,9 @@ const ContactUs = () => {
                             ></textarea>
                         </div>
                     </div>
-                    <div className="mt-10 md:mt-14 flex items-center justify-center">
+                    <div className="flex items-center justify-center pt-5 pb-5">
                         <button 
-                            className="w-5/12 md:w-3/12 bg-main border border-white hover:bg-white text-white hover:text-main text-lg md:text-xl font-medium py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline duration-100 ease-in-out" 
+                            className="w-5/12 md:w-3/12 bg-main border border-white hover:bg-red-700 text-white hover:text-main text-lg md:text-xl font-medium py-2 px-4 rounded-3xl focus:outline-none focus:shadow-outline duration-300 ease-in-out" 
                             type="submit"
                             >{t('contact-submit')}</button>
                     </div>

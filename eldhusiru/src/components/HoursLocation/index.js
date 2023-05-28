@@ -7,7 +7,7 @@ const HoursLocation = () => {
     const { t } = useTranslation();
     
     return (
-        <div id="Opnunartimi&Stadsetning" className="flex flex-col md:flex-row justify-start max-w-none md:max-w-screen-xl mx-auto">
+        <div id="hours-location" className="flex flex-col md:flex-row justify-start max-w-none md:max-w-screen-xl mx-auto">
             <div className="flex flex-col justify-center items-center md:w-1/2 pt-5 md:pt-0">
                 <h2 className="text-center">{t('opening-header')}</h2>
                 <p className="mt-2.5 mb-20">{t('opening-text-days')}<span className="tab"></span>{t('opening-text-hours')}</p>
