@@ -10,6 +10,10 @@
     "order-now-button": "Panta",
     "see-menu-button": "Sjá matseðil",
 
+    "modal-header": "Viltu sækja pöntunina eða fá hana senda heim?",
+    "modal-pickup": "Sækja",
+    "modal-delivery": "Heimsending",
+
     "aboutus-header": "Um okkur",
     "aboutus-text": "Á Eldhús Iru er okkar umhugað um gæði og varð staðurinn til úr hreinni ástríðu fyrir góðum .... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan tellus vitae tellus mattis, quis rhoncus orci tincidunt. Vivamus consequat arcu nec diam luctus, eu placerat ante ullamcorper. Aenean a euismod ipsum, non faucibus massa. Etiam quam arcu, fermentum ut eros vitae, molestie pulvinar magna. Curabitur tristique vitae metus sit amet tincidunt. Cras rutrum efficitur erat vel dapibus. Nunc tempor porta enim vitae lobortis. Nullam consectetur fringilla mi quis malesuada. Nam volutpat lectus in venenatis tincidunt. Morbi sit amet risus turpis. Nullam vel arcu mauris. Donec arcu dui, volutpat ac tellus convallis, hendrerit consequat libero. Orci. Verði ykkur að góðu.",
     "aboutus-text1": "Við hjá Eldhús Iru sérhæfum okkur í Indónesískri matargerð. Við höfum mikla ástríðu fyrir matargerð og leggjum mikið úr því að hafa góð hráefni og notumst við uppskriftir sem hafa fylgt okkur í aldanna rás.",
