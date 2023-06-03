@@ -5,36 +5,28 @@ import Loading from "../../components/Loading";
 
 const OrderView = () => {
   const [widget, setWidget] = useState(false);
+  const [reload, setReload] = useState(false);
 
-  // useEffect(() => {
-  //   const div = document.getElementById("salescloud-widget-frame-wrapper");
-  //   console.log(div);
-  //   if (div !== null) {
-  //     console.log("inside if");
-  //     div.addEventListener("load", () => {
-  //       setLoading(false);
-  //     });
-  //   }
-  // }, []);
+  const onPageLoad = () => {
+    setWidget(true);
+    setReload(!reload);
+  };
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  useEffect(() => {
-
-    const onPageLoad = () => {
-      setWidget(true);
-    };
-
-    // Check if the page has already loaded
+  const checkLoad = () => {
     if (document.readyState === 'complete') {
       onPageLoad();
     } else {
       window.addEventListener('load', onPageLoad);
       // Remove the event listener when component unmounts
+      setReload(!reload);
       return () => window.removeEventListener('load', onPageLoad);
     }
+  }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    checkLoad();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -55,11 +47,14 @@ const OrderView = () => {
         frameWrapper.innerHTML = "<div id='app'></div>";
         document.body.appendChild(script);
       } else {
-        window.location.reload(false);
+        // window.location.reload(false);
+        checkLoad();
       }
+    } else {
+      checkLoad();
     }
-
-  }, [widget]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [reload]);
 
   return (
     <>
