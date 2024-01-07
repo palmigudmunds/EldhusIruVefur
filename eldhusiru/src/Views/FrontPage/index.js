@@ -7,6 +7,7 @@ import Footer from "../../components/Footer";
 import Loading from "../../components/Loading";
 import { useTranslation } from "react-i18next";
 import { Suspense, useState } from "react";
+import menuPdf from "../../resources/eldhusiru-menu.pdf";
 
 const FrontPageView = () => {
   const [showModal, setShowModal] = useState(false);
@@ -35,6 +36,33 @@ const FrontPageView = () => {
                     >
                       {t("order-now-button")}
                     </button>
+                    {/* <a
+                    href={menuPdf} target="_blank"
+                    rel="noreferrer"
+                      className="order-button"
+                      type="button"
+                    >
+                      {t("menu-button")}
+                    </a> */}
+                  </div>
+                  <div className="pt-3 max-md:mb-5">
+                    {/* <button
+                      className="order-button mr-5"
+                      type="button"
+                      onClick={() => {
+                        setShowModal(true);
+                      }}
+                    >
+                      {t("order-now-button")}
+                    </button> */}
+                    <a
+                    href={menuPdf} target="_blank"
+                    rel="noreferrer"
+                      className="order-button"
+                      type="button"
+                    >
+                      {t("menu-button")}
+                    </a>
                   </div>
                 </div>
               </div>

@@ -21,7 +21,7 @@ const Footer = () => {
                         <a href="mailto:iraskitchen15@gmail.com" className='text-sm'>iraskitchen15@gmail.com</a>
                     </li>
                     <li>
-                        <a href="tel:+3546154400" className='text-sm'>+354 615 4400</a>
+                        <a href="tel:+3547705004" className='text-sm'>+354 770 5004</a>
                     </li>
                 </ul>
                 <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
